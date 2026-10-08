@@ -5,8 +5,6 @@
 //  Created by Brent Michalski on 4/1/24.
 //
 
-// TODO: Verify adding works async
-
 import SwiftUI
 import SwiftData
 
