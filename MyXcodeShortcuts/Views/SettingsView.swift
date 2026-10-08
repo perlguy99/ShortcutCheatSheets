@@ -7,6 +7,7 @@
 
 import SwiftUI
 import SwiftData
+import AVFoundation
 
 enum Separator: String, CaseIterable {
     case space = " "
@@ -42,6 +43,7 @@ struct SettingsFormView: View {
     let pdfViewModel: PDFViewModel
 
     let separatorOptions = Separator.allCases
+    @State private var easterEggPlayer: AVAudioPlayer?
 
     var body: some View {
         @Bindable var statusManager = statusManager
@@ -83,9 +85,25 @@ struct SettingsFormView: View {
         .navigationBarTitleDisplayMode(.inline)
         .toolbar {
             ToolbarItem(placement: .bottomBar) {
-                Text("Copyright © 2024, Brent Danger Michalski")
-                    .font(.caption)
+                Button {
+                    playDangerSound()
+                } label: {
+                    Text("Copyright © 2026, Brent Danger Michalski")
+                        .font(.caption)
+                        .foregroundStyle(.secondary)
+                }
+                .buttonStyle(.plain)
             }
+        }
+    }
+
+    private func playDangerSound() {
+        guard let url = Bundle.main.url(forResource: "dangers_my_middle_name", withExtension: "mp3") else { return }
+        do {
+            easterEggPlayer = try AVAudioPlayer(contentsOf: url)
+            easterEggPlayer?.play()
+        } catch {
+            print("Failed to play Easter egg sound: \(error.localizedDescription)")
         }
     }
 }
