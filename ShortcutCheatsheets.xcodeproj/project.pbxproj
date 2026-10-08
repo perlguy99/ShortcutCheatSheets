@@ -48,6 +48,7 @@
 		84A3D1E22BD344ED00FF60BF /* StatusManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84A3D1E12BD344ED00FF60BF /* StatusManager.swift */; };
 		84AA00012C0000010055AA01 /* StatusManagerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84AA00012C0000010055AA02 /* StatusManagerTests.swift */; };
 		84B30A272BD01F3A0047AB24 /* KeyData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B30A262BD01F3A0047AB24 /* KeyData.swift */; };
+		84C884763077E2EE0039199B /* ShortcutCheatsheetsIcon.icon in Resources */ = {isa = PBXBuildFile; fileRef = 84C884753077E2EE0039199B /* ShortcutCheatsheetsIcon.icon */; };
 		84CA9AE42BCDBE010027A1FA /* CategorySelectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84CA9AE32BCDBE010027A1FA /* CategorySelectionView.swift */; };
 		84D51D382BBDCDB500E6169B /* SeedData.json in Resources */ = {isa = PBXBuildFile; fileRef = 84D51D372BBDCDB500E6169B /* SeedData.json */; };
 		84D51D3C2BBDF0DB00E6169B /* SeedData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D51D3B2BBDF0DB00E6169B /* SeedData.swift */; };
@@ -98,13 +99,13 @@
 		8447532E2BD5DDA30073D85A /* HelpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelpView.swift; sourceTree = "<group>"; };
 		846030BB2BD871D300B5BC3D /* SplashScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashScreen.swift; sourceTree = "<group>"; };
 		846030BF2BD9389000B5BC3D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
-		846370EF2BBAF8C0001ED9C3 /* MyXcodeShortcuts.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyXcodeShortcuts.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		846370EF2BBAF8C0001ED9C3 /* ShortcutCheatsheets.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShortcutCheatsheets.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		846370F22BBAF8C0001ED9C3 /* MyXcodeShortcutsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyXcodeShortcutsApp.swift; sourceTree = "<group>"; };
 		846370F42BBAF8C0001ED9C3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		846370F82BBAF8C2001ED9C3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		846370FB2BBAF8C2001ED9C3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		846371012BBAF8C3001ED9C3 /* MyXcodeShortcutsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyXcodeShortcutsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		8463710B2BBAF8C3001ED9C3 /* MyXcodeShortcutsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyXcodeShortcutsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		846371012BBAF8C3001ED9C3 /* ShortcutCheatsheetsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ShortcutCheatsheetsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8463710B2BBAF8C3001ED9C3 /* ShortcutCheatsheetsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ShortcutCheatsheetsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8463710F2BBAF8C3001ED9C3 /* MyXcodeShortcutsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyXcodeShortcutsUITests.swift; sourceTree = "<group>"; };
 		846371112BBAF8C3001ED9C3 /* MyXcodeShortcutsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyXcodeShortcutsUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		846371212BBB02FA001ED9C3 /* Category.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
@@ -127,6 +128,7 @@
 		84A3D1E12BD344ED00FF60BF /* StatusManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatusManager.swift; sourceTree = "<group>"; };
 		84AA00012C0000010055AA02 /* StatusManagerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatusManagerTests.swift; sourceTree = "<group>"; };
 		84B30A262BD01F3A0047AB24 /* KeyData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyData.swift; sourceTree = "<group>"; };
+		84C884753077E2EE0039199B /* ShortcutCheatsheetsIcon.icon */ = {isa = PBXFileReference; lastKnownFileType = folder.iconcomposer.icon; path = ShortcutCheatsheetsIcon.icon; sourceTree = "<group>"; };
 		84CA9AE32BCDBE010027A1FA /* CategorySelectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategorySelectionView.swift; sourceTree = "<group>"; };
 		84D51D372BBDCDB500E6169B /* SeedData.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = SeedData.json; sourceTree = "<group>"; };
 		84D51D3B2BBDF0DB00E6169B /* SeedData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeedData.swift; sourceTree = "<group>"; };
@@ -136,7 +138,7 @@
 		84FF7C662BE9844F00213E9B /* RootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootView.swift; sourceTree = "<group>"; };
 		8B2B7FEEAC370C3C1241DB1E /* ContentView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		9361D0EBECCF348D4954A806 /* SchemaMigrationTests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SchemaMigrationTests.swift; sourceTree = "<group>"; };
-		B18531A62BA65F64F7B6CE0A /* MyXcodeShortcuts Exporter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "MyXcodeShortcuts Exporter.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B18531A62BA65F64F7B6CE0A /* Shortcut Cheat Sheets Exporter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Shortcut Cheat Sheets Exporter.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B5705819D73D47FC8E09536E /* ShortcutImporter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShortcutImporter.swift; sourceTree = "<group>"; };
 		BA3E746751FAE05ED0B1ECA5 /* MyXcodeShortcutsMacApp.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = MyXcodeShortcutsMacApp.swift; sourceTree = "<group>"; };
 		EB4CE1C4EB1E9A0CFAE2CE89 /* SchemaMigrations.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SchemaMigrations.swift; sourceTree = "<group>"; };
@@ -198,6 +200,7 @@
 			children = (
 				8416C88A2BE59CCE009F315A /* PrivacyInfo.xcprivacy */,
 				84E55E772BD704AF00B6EDCD /* Config.xcconfig */,
+				84C884753077E2EE0039199B /* ShortcutCheatsheetsIcon.icon */,
 				846370F12BBAF8C0001ED9C3 /* MyXcodeShortcuts */,
 				846371042BBAF8C3001ED9C3 /* MyXcodeShortcutsTests */,
 				8463710E2BBAF8C3001ED9C3 /* MyXcodeShortcutsUITests */,
@@ -210,10 +213,10 @@
 		846370F02BBAF8C0001ED9C3 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				846370EF2BBAF8C0001ED9C3 /* MyXcodeShortcuts.app */,
-				846371012BBAF8C3001ED9C3 /* MyXcodeShortcutsTests.xctest */,
-				8463710B2BBAF8C3001ED9C3 /* MyXcodeShortcutsUITests.xctest */,
-				B18531A62BA65F64F7B6CE0A /* MyXcodeShortcuts Exporter.app */,
+				846370EF2BBAF8C0001ED9C3 /* ShortcutCheatsheets.app */,
+				846371012BBAF8C3001ED9C3 /* ShortcutCheatsheetsTests.xctest */,
+				8463710B2BBAF8C3001ED9C3 /* ShortcutCheatsheetsUITests.xctest */,
+				B18531A62BA65F64F7B6CE0A /* Shortcut Cheat Sheets Exporter.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -340,9 +343,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		846370EE2BBAF8C0001ED9C3 /* MyXcodeShortcuts */ = {
+		846370EE2BBAF8C0001ED9C3 /* ShortcutCheatsheets */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 846371152BBAF8C3001ED9C3 /* Build configuration list for PBXNativeTarget "MyXcodeShortcuts" */;
+			buildConfigurationList = 846371152BBAF8C3001ED9C3 /* Build configuration list for PBXNativeTarget "ShortcutCheatsheets" */;
 			buildPhases = (
 				84E55E762BD6FB9300B6EDCD /* ShellScript */,
 				846370EB2BBAF8C0001ED9C3 /* Sources */,
@@ -353,14 +356,14 @@
 			);
 			dependencies = (
 			);
-			name = MyXcodeShortcuts;
+			name = ShortcutCheatsheets;
 			productName = MyXcodeShortcuts;
-			productReference = 846370EF2BBAF8C0001ED9C3 /* MyXcodeShortcuts.app */;
+			productReference = 846370EF2BBAF8C0001ED9C3 /* ShortcutCheatsheets.app */;
 			productType = "com.apple.product-type.application";
 		};
-		846371002BBAF8C3001ED9C3 /* MyXcodeShortcutsTests */ = {
+		846371002BBAF8C3001ED9C3 /* ShortcutCheatsheetsTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 846371182BBAF8C3001ED9C3 /* Build configuration list for PBXNativeTarget "MyXcodeShortcutsTests" */;
+			buildConfigurationList = 846371182BBAF8C3001ED9C3 /* Build configuration list for PBXNativeTarget "ShortcutCheatsheetsTests" */;
 			buildPhases = (
 				846370FD2BBAF8C3001ED9C3 /* Sources */,
 				846370FE2BBAF8C3001ED9C3 /* Frameworks */,
@@ -371,14 +374,14 @@
 			dependencies = (
 				846371032BBAF8C3001ED9C3 /* PBXTargetDependency */,
 			);
-			name = MyXcodeShortcutsTests;
+			name = ShortcutCheatsheetsTests;
 			productName = MyXcodeShortcutsTests;
-			productReference = 846371012BBAF8C3001ED9C3 /* MyXcodeShortcutsTests.xctest */;
+			productReference = 846371012BBAF8C3001ED9C3 /* ShortcutCheatsheetsTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		8463710A2BBAF8C3001ED9C3 /* MyXcodeShortcutsUITests */ = {
+		8463710A2BBAF8C3001ED9C3 /* ShortcutCheatsheetsUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 8463711B2BBAF8C3001ED9C3 /* Build configuration list for PBXNativeTarget "MyXcodeShortcutsUITests" */;
+			buildConfigurationList = 8463711B2BBAF8C3001ED9C3 /* Build configuration list for PBXNativeTarget "ShortcutCheatsheetsUITests" */;
 			buildPhases = (
 				846371072BBAF8C3001ED9C3 /* Sources */,
 				846371082BBAF8C3001ED9C3 /* Frameworks */,
@@ -389,14 +392,14 @@
 			dependencies = (
 				8463710D2BBAF8C3001ED9C3 /* PBXTargetDependency */,
 			);
-			name = MyXcodeShortcutsUITests;
+			name = ShortcutCheatsheetsUITests;
 			productName = MyXcodeShortcutsUITests;
-			productReference = 8463710B2BBAF8C3001ED9C3 /* MyXcodeShortcutsUITests.xctest */;
+			productReference = 8463710B2BBAF8C3001ED9C3 /* ShortcutCheatsheetsUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
-		EBA39F5037AB4E80BEA7E028 /* MyXcodeShortcutsMac */ = {
+		EBA39F5037AB4E80BEA7E028 /* ShortcutCheatsheetsMac */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C8DB3E9B1552BC716168C264 /* Build configuration list for PBXNativeTarget "MyXcodeShortcutsMac" */;
+			buildConfigurationList = C8DB3E9B1552BC716168C264 /* Build configuration list for PBXNativeTarget "ShortcutCheatsheetsMac" */;
 			buildPhases = (
 				75285CADE0BB18C226DBB221 /* Sources */,
 				9F121F0092112C76CDA7B6E1 /* Frameworks */,
@@ -406,12 +409,12 @@
 			);
 			dependencies = (
 			);
-			name = MyXcodeShortcutsMac;
+			name = ShortcutCheatsheetsMac;
 			packageProductDependencies = (
 				0E48AC144F51588DAB628903 /* ShortcutScraping */,
 			);
 			productName = MyXcodeShortcutsMac;
-			productReference = B18531A62BA65F64F7B6CE0A /* MyXcodeShortcuts Exporter.app */;
+			productReference = B18531A62BA65F64F7B6CE0A /* Shortcut Cheat Sheets Exporter.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -437,7 +440,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 846370EA2BBAF8C0001ED9C3 /* Build configuration list for PBXProject "MyXcodeShortcuts" */;
+			buildConfigurationList = 846370EA2BBAF8C0001ED9C3 /* Build configuration list for PBXProject "ShortcutCheatsheets" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -453,10 +456,10 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				846370EE2BBAF8C0001ED9C3 /* MyXcodeShortcuts */,
-				846371002BBAF8C3001ED9C3 /* MyXcodeShortcutsTests */,
-				8463710A2BBAF8C3001ED9C3 /* MyXcodeShortcutsUITests */,
-				EBA39F5037AB4E80BEA7E028 /* MyXcodeShortcutsMac */,
+				846370EE2BBAF8C0001ED9C3 /* ShortcutCheatsheets */,
+				846371002BBAF8C3001ED9C3 /* ShortcutCheatsheetsTests */,
+				8463710A2BBAF8C3001ED9C3 /* ShortcutCheatsheetsUITests */,
+				EBA39F5037AB4E80BEA7E028 /* ShortcutCheatsheetsMac */,
 			);
 		};
 /* End PBXProject section */
@@ -472,6 +475,7 @@
 				840103F02BD2BB0200B467D1 /* SeedData_UnitTests.json in Resources */,
 				84ED14E82BC9E7DA00375EED /* SeedData_Release_1.json in Resources */,
 				84D51D382BBDCDB500E6169B /* SeedData.json in Resources */,
+				84C884763077E2EE0039199B /* ShortcutCheatsheetsIcon.icon in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -599,12 +603,12 @@
 /* Begin PBXTargetDependency section */
 		846371032BBAF8C3001ED9C3 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 846370EE2BBAF8C0001ED9C3 /* MyXcodeShortcuts */;
+			target = 846370EE2BBAF8C0001ED9C3 /* ShortcutCheatsheets */;
 			targetProxy = 846371022BBAF8C3001ED9C3 /* PBXContainerItemProxy */;
 		};
 		8463710D2BBAF8C3001ED9C3 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 846370EE2BBAF8C0001ED9C3 /* MyXcodeShortcuts */;
+			target = 846370EE2BBAF8C0001ED9C3 /* ShortcutCheatsheets */;
 			targetProxy = 8463710C2BBAF8C3001ED9C3 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -739,7 +743,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 84E55E772BD704AF00B6EDCD /* Config.xcconfig */;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_APPICON_NAME = ShortcutCheatsheetsIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
@@ -752,7 +756,7 @@
 				INFOPLIST_FILE = MyXcodeShortcuts/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = "Shortcut Cheat Sheets";
 				INFOPLIST_KEY_ITSAppUsesNonExemptEncryption = NO;
-				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.developer-tools";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -778,7 +782,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 84E55E772BD704AF00B6EDCD /* Config.xcconfig */;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_APPICON_NAME = ShortcutCheatsheetsIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
@@ -790,7 +794,7 @@
 				INFOPLIST_FILE = MyXcodeShortcuts/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = "Shortcut Cheat Sheets";
 				INFOPLIST_KEY_ITSAppUsesNonExemptEncryption = NO;
-				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.developer-tools";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -826,7 +830,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MyXcodeShortcuts.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MyXcodeShortcuts";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ShortcutCheatsheets.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ShortcutCheatsheets";
 			};
 			name = Debug;
 		};
@@ -844,7 +848,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MyXcodeShortcuts.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MyXcodeShortcuts";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ShortcutCheatsheets.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ShortcutCheatsheets";
 			};
 			name = Release;
 		};
@@ -941,7 +945,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		846370EA2BBAF8C0001ED9C3 /* Build configuration list for PBXProject "MyXcodeShortcuts" */ = {
+		846370EA2BBAF8C0001ED9C3 /* Build configuration list for PBXProject "ShortcutCheatsheets" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				846371132BBAF8C3001ED9C3 /* Debug */,
@@ -950,7 +954,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		846371152BBAF8C3001ED9C3 /* Build configuration list for PBXNativeTarget "MyXcodeShortcuts" */ = {
+		846371152BBAF8C3001ED9C3 /* Build configuration list for PBXNativeTarget "ShortcutCheatsheets" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				846371162BBAF8C3001ED9C3 /* Debug */,
@@ -959,7 +963,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		846371182BBAF8C3001ED9C3 /* Build configuration list for PBXNativeTarget "MyXcodeShortcutsTests" */ = {
+		846371182BBAF8C3001ED9C3 /* Build configuration list for PBXNativeTarget "ShortcutCheatsheetsTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				846371192BBAF8C3001ED9C3 /* Debug */,
@@ -968,7 +972,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		8463711B2BBAF8C3001ED9C3 /* Build configuration list for PBXNativeTarget "MyXcodeShortcutsUITests" */ = {
+		8463711B2BBAF8C3001ED9C3 /* Build configuration list for PBXNativeTarget "ShortcutCheatsheetsUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				8463711C2BBAF8C3001ED9C3 /* Debug */,
@@ -977,7 +981,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C8DB3E9B1552BC716168C264 /* Build configuration list for PBXNativeTarget "MyXcodeShortcutsMac" */ = {
+		C8DB3E9B1552BC716168C264 /* Build configuration list for PBXNativeTarget "ShortcutCheatsheetsMac" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A77D73594A368E80E53022CA /* Release */,

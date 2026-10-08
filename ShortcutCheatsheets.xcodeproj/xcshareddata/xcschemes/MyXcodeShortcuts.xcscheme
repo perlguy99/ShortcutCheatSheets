@@ -16,9 +16,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "846370EE2BBAF8C0001ED9C3"
-               BuildableName = "MyXcodeShortcuts.app"
-               BlueprintName = "MyXcodeShortcuts"
-               ReferencedContainer = "container:MyXcodeShortcuts.xcodeproj">
+               BuildableName = "ShortcutCheatsheets.app"
+               BlueprintName = "ShortcutCheatsheets"
+               ReferencedContainer = "container:ShortcutCheatsheets.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -36,9 +36,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "846371002BBAF8C3001ED9C3"
-               BuildableName = "MyXcodeShortcutsTests.xctest"
-               BlueprintName = "MyXcodeShortcutsTests"
-               ReferencedContainer = "container:MyXcodeShortcuts.xcodeproj">
+               BuildableName = "ShortcutCheatsheetsTests.xctest"
+               BlueprintName = "ShortcutCheatsheetsTests"
+               ReferencedContainer = "container:ShortcutCheatsheets.xcodeproj">
             </BuildableReference>
          </TestableReference>
          <TestableReference
@@ -47,9 +47,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "8463710A2BBAF8C3001ED9C3"
-               BuildableName = "MyXcodeShortcutsUITests.xctest"
-               BlueprintName = "MyXcodeShortcutsUITests"
-               ReferencedContainer = "container:MyXcodeShortcuts.xcodeproj">
+               BuildableName = "ShortcutCheatsheetsUITests.xctest"
+               BlueprintName = "ShortcutCheatsheetsUITests"
+               ReferencedContainer = "container:ShortcutCheatsheets.xcodeproj">
             </BuildableReference>
             <SkippedTests>
                <Test
@@ -77,9 +77,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "846370EE2BBAF8C0001ED9C3"
-            BuildableName = "MyXcodeShortcuts.app"
-            BlueprintName = "MyXcodeShortcuts"
-            ReferencedContainer = "container:MyXcodeShortcuts.xcodeproj">
+            BuildableName = "ShortcutCheatsheets.app"
+            BlueprintName = "ShortcutCheatsheets"
+            ReferencedContainer = "container:ShortcutCheatsheets.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </LaunchAction>
@@ -94,9 +94,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "846370EE2BBAF8C0001ED9C3"
-            BuildableName = "MyXcodeShortcuts.app"
-            BlueprintName = "MyXcodeShortcuts"
-            ReferencedContainer = "container:MyXcodeShortcuts.xcodeproj">
+            BuildableName = "ShortcutCheatsheets.app"
+            BlueprintName = "ShortcutCheatsheets"
+            ReferencedContainer = "container:ShortcutCheatsheets.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

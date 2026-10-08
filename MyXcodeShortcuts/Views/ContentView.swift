@@ -54,7 +54,7 @@ struct ContentView: View {
                         }
                     }
             }
-            .navigationTitle(activeShortcutApp?.name ?? "My Shortcuts")
+            .navigationTitle(activeShortcutApp?.name ?? "Shortcut Cheat Sheets")
             .navigationDestination(for: Shortcut.self) { shortcut in
                 EditShortcutView(navigationPath: $navigationPath, shortcut: shortcut)
             }

@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "EBA39F5037AB4E80BEA7E028"
-               BuildableName = "MyXcodeShortcuts Exporter.app"
-               BlueprintName = "MyXcodeShortcutsMac"
-               ReferencedContainer = "container:MyXcodeShortcuts.xcodeproj">
+               BuildableName = "Shortcut Cheat Sheets Exporter.app"
+               BlueprintName = "ShortcutCheatsheetsMac"
+               ReferencedContainer = "container:ShortcutCheatsheets.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -31,9 +31,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "EBA39F5037AB4E80BEA7E028"
-            BuildableName = "MyXcodeShortcuts Exporter.app"
-            BlueprintName = "MyXcodeShortcutsMac"
-            ReferencedContainer = "container:MyXcodeShortcuts.xcodeproj">
+            BuildableName = "Shortcut Cheat Sheets Exporter.app"
+            BlueprintName = "ShortcutCheatsheetsMac"
+            ReferencedContainer = "container:ShortcutCheatsheets.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <Testables>
@@ -54,9 +54,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "EBA39F5037AB4E80BEA7E028"
-            BuildableName = "MyXcodeShortcuts Exporter.app"
-            BlueprintName = "MyXcodeShortcutsMac"
-            ReferencedContainer = "container:MyXcodeShortcuts.xcodeproj">
+            BuildableName = "Shortcut Cheat Sheets Exporter.app"
+            BlueprintName = "ShortcutCheatsheetsMac"
+            ReferencedContainer = "container:ShortcutCheatsheets.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </LaunchAction>
@@ -71,9 +71,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "EBA39F5037AB4E80BEA7E028"
-            BuildableName = "MyXcodeShortcuts Exporter.app"
-            BlueprintName = "MyXcodeShortcutsMac"
-            ReferencedContainer = "container:MyXcodeShortcuts.xcodeproj">
+            BuildableName = "Shortcut Cheat Sheets Exporter.app"
+            BlueprintName = "ShortcutCheatsheetsMac"
+            ReferencedContainer = "container:ShortcutCheatsheets.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

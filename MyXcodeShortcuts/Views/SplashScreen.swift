@@ -33,7 +33,7 @@ struct SplashScreen: View {
             VStack(spacing: 10) {
                 Text("Welcome to")
                     .font(.largeTitle)
-                Text("My Shortcuts for Xcode")
+                Text("Shortcut Cheat Sheets")
                     .font(.largeTitle)
             }
             .multilineTextAlignment(.center)
