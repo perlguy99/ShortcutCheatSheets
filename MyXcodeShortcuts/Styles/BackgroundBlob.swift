@@ -14,7 +14,7 @@ protocol SelfCreatingView: View {
 struct BackgroundBlob: View {
     @State private var rotationAmount = 0.0
     let alignment: Alignment = [.topLeading, .topTrailing, .bottomLeading, .bottomTrailing].randomElement()!
-    let color: Color = [.blue, .appBaseBlue, .teal].randomElement()!
+    let color: Color = [.appBaseBlue, .orange, .yellow].randomElement()!
     
     var body: some View {
         Ellipse()
@@ -44,7 +44,7 @@ struct BlurredBackground: SelfCreatingView {
                 BackgroundBlob()
             }
         }
-        .background(.blue)
+        .background(.appBaseBlue)
     }
 }
 
