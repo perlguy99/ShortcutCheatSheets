@@ -21,7 +21,7 @@ struct HelpView: View {
         List {
             Section(header: Text("First Time Running")) {
                 let footnote = Text("It isn't 100% complete, but it is a good start").font(.footnote).italic()
-                Text("Upon first load, the app is pre-populated with default data from Apple's documentation\n\(footnote)")
+                Text("Upon first load, the app is pre-populated with default data from Apple's Xcode documentation\n\(footnote)")
 
                 Text("Users can then add or customize the shortcuts")
             }
