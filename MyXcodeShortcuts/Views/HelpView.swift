@@ -93,6 +93,16 @@ struct HelpView: View {
 
 
             Section {
+                Text("Tap to switch which app's shortcuts you're viewing, or to import a new collection")
+                Text("Need shortcuts for an app that isn't listed?\n\t☞ Use the free Mac companion app to export them from that app's real menu bar\n\t☞ Full step-by-step instructions are in the project's README on GitHub")
+            } header: {
+                HStack {
+                    Image(systemName: "square.stack.3d.up")
+                    Text("Collections")
+                }
+            }
+
+            Section {
                 Text("I just wanted to make sure I gave credit to Ray Wenderlich at https://kodeco.com for the tutorial that inspired this app.")
             } header: {
                 HStack {
