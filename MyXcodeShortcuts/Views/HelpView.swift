@@ -94,7 +94,14 @@ struct HelpView: View {
 
             Section {
                 Text("Tap to switch which app's shortcuts you're viewing, or to import a new collection")
-                Text("Need shortcuts for an app that isn't listed?\n\t☞ Use the free Mac companion app to export them from that app's real menu bar\n\t☞ Full step-by-step instructions are in the project's README on GitHub")
+                Text("Need shortcuts for an app that isn't listed?\n\t☞ Use the free Mac companion app to export them from that app's real menu bar")
+                Link(destination: URL(string: "https://github.com/perlguy99/ShortcutCheatSheets/blob/main/README.md")!) {
+                    HStack {
+                        Text("☞ Full step-by-step instructions")
+                        Spacer()
+                        Image(systemName: "arrow.up.right.square")
+                    }
+                }
             } header: {
                 HStack {
                     Image(systemName: "square.stack.3d.up")
