@@ -15,7 +15,7 @@ enum Separator: String, CaseIterable {
     case dot = "."
     case tilde = "~"
     case plus = "+"
-    
+
     var description: String {
         switch self {
             case .space: return "SPACE"
@@ -28,19 +28,8 @@ enum Separator: String, CaseIterable {
 }
 
 struct SettingsView: View {
-    let pdfViewModel: PDFViewModel
-
-    var body: some View {
-        SettingsFormView(pdfViewModel: pdfViewModel)
-        .navigationBarTitleDisplayMode(.inline)
-    }
-}
-
-
-struct SettingsFormView: View {
     @Environment(\.modelContext) var modelContext
     @Environment(StatusManager.self) private var statusManager
-    let pdfViewModel: PDFViewModel
 
     let separatorOptions = Separator.allCases
     @State private var easterEggPlayer: AVAudioPlayer?
@@ -55,26 +44,11 @@ struct SettingsFormView: View {
             Section(header: Text("Show Symbols")) {
                 Toggle("Show Symbols", isOn: $statusManager.showSymbols)
             }
-            
+
             Section(header: Text("Key Separator")) {
                 KeyCombinationView(combination: statusManager.keyCombination(from: "CMD CTRL OPT SHIFT RETURN X"))
                 KeyCombinationView(combination: statusManager.keyCombination(from: "UpArrow DownArrow RightArrow LeftArrow tab X"))
                 SeparatorPickerView(selectedSeparator: $statusManager.separator, separators: separatorOptions)
-            }
-            
-            Section(header: Text("Preview/Print PDF Cheatsheet")) {
-                Button("Preview/Print PDF Cheatsheet") {
-                    pdfViewModel.generatePDF()
-                }
-                
-                if let pdfData = pdfViewModel.pdfData {
-                    NavigationLink(value: Route.pdfPreview(pdfData)) {
-                        HStack {
-                            Image(systemName: "square.and.arrow.up")
-                            Text("View Generated PDF")
-                        }
-                    }
-                }
             }
 
             Section(header: Text("Help")) {
@@ -110,7 +84,7 @@ struct SettingsFormView: View {
 
 struct KeyCombinationView: View {
     var combination: String
-    
+
     var body: some View {
         HStack {
             Spacer()
@@ -126,7 +100,7 @@ struct KeyCombinationView: View {
 struct SeparatorPickerView: View {
     @Binding var selectedSeparator: String
     let separators: [Separator]
-    
+
     var body: some View {
         Picker("Custom Separator", selection: $selectedSeparator) {
             ForEach(separators, id: \.self) { option in
@@ -143,12 +117,12 @@ struct SeparatorPickerView: View {
         let statusManager = StatusManager()
         let config = ModelConfiguration(isStoredInMemoryOnly: true)
         let container = try ModelContainer(for: Category.self, configurations: config)
-        let categories = [Category]()
-        let pdfViewModel = PDFViewModel(categories: categories, statusManager: statusManager)
-        
-        return SettingsView(pdfViewModel: pdfViewModel)
-            .modelContainer(container)
-            .environment(statusManager)
+
+        return NavigationStack {
+            SettingsView()
+        }
+        .modelContainer(container)
+        .environment(statusManager)
     } catch {
         return Text("Failed to create a model container")
     }
@@ -159,14 +133,14 @@ struct SeparatorPickerView: View {
         let statusManager = StatusManager()
         let config = ModelConfiguration(isStoredInMemoryOnly: true)
         let container = try ModelContainer(for: Category.self, configurations: config)
-        let categories = [Category]()
-        let pdfViewModel = PDFViewModel(categories: categories, statusManager: statusManager)
-        
+
         statusManager.showSymbols = true
-        
-        return SettingsView(pdfViewModel: pdfViewModel)
-            .modelContainer(container)
-            .environment(statusManager)
+
+        return NavigationStack {
+            SettingsView()
+        }
+        .modelContainer(container)
+        .environment(statusManager)
     } catch {
         return Text("Failed to create a model container")
     }
@@ -177,15 +151,15 @@ struct SeparatorPickerView: View {
         let statusManager = StatusManager()
         let config = ModelConfiguration(isStoredInMemoryOnly: true)
         let container = try ModelContainer(for: Category.self, configurations: config)
-        let categories = [Category]()
-        let pdfViewModel = PDFViewModel(categories: categories, statusManager: statusManager)
-        
+
         statusManager.showSymbols = true
-        
-        return SettingsView(pdfViewModel: pdfViewModel)
-            .preferredColorScheme(.dark)
-            .modelContainer(container)
-            .environment(statusManager)
+
+        return NavigationStack {
+            SettingsView()
+        }
+        .preferredColorScheme(.dark)
+        .modelContainer(container)
+        .environment(statusManager)
     } catch {
         return Text("Failed to create a model container")
     }

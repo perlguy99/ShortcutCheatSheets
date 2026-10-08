@@ -13,7 +13,7 @@ struct RootView: View {
     var body: some View {
         ZStack {
             if isActive {
-                ContentView()
+                MainTabView()
             } else {
                 SplashScreen()
             }

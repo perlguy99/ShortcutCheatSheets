@@ -48,9 +48,8 @@ struct ContentView: View {
                             EditButton()
                         }
                         ToolbarItemGroup(placement: .topBarTrailing) {
-                            collectionsToolbarItem()
+                            printToolbarItem()
                             addItemToolbarItem()
-                            settingsToolbarItem()
                         }
                     }
             }
@@ -63,10 +62,6 @@ struct ContentView: View {
             }
             .navigationDestination(for: Route.self) { route in
                 switch route {
-                case .settings:
-                    SettingsView(pdfViewModel: PDFViewModel(categories: visibleCategories, statusManager: statusManager))
-                case .collections:
-                    CollectionsView()
                 case .categorySelection(let shortcut):
                     CategorySelectionView(shortcut: shortcut)
                 case .pdfPreview(let data):
@@ -100,18 +95,21 @@ struct ContentView: View {
         .accessibilityLabel(statusManager.currentStatus.headingValue)
     }
     
-    private func settingsToolbarItem() -> some View {
-        NavigationLink(value: Route.settings) {
-            Label("Settings", systemImage: "gear")
+    private func printToolbarItem() -> some View {
+        Button(action: printPDF) {
+            Label("Print", systemImage: "printer")
+        }
+        .disabled(visibleCategories.isEmpty)
+    }
+
+    private func printPDF() {
+        let viewModel = PDFViewModel(categories: visibleCategories, statusManager: statusManager)
+        viewModel.generatePDF()
+        if let data = viewModel.pdfData {
+            navigationPath.append(Route.pdfPreview(data))
         }
     }
 
-    private func collectionsToolbarItem() -> some View {
-        NavigationLink(value: Route.collections) {
-            Label("Collections", systemImage: "square.stack.3d.up")
-        }
-    }
-    
     private func addItemToolbarItem() -> some View {
         Button(action: addItem) {
             Label("Add Item", systemImage: "plus")
