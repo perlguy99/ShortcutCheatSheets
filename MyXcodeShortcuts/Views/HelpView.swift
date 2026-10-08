@@ -27,8 +27,8 @@ struct HelpView: View {
             }
 
             Section(header: Text("Main View")) {
-                Text("★ Long-Press on an existing Shortcut to edit it")
-                Text("★ Tap on a Shortcuts checkbox to toggle its filter attribute between none, favorite, and hidden")
+                Text("★ Tap on an existing Shortcut to edit it")
+                Text("★ Tap a Shortcut's star to mark it a favorite; swipe left on a Shortcut to hide or unhide it")
             }
 
             Section {
@@ -65,6 +65,9 @@ struct HelpView: View {
                     let hidden = Text("(hidden)").bold()
                     Text("\(hidden) - Showing hidden")
                 }
+
+                Text("Tip: want your own custom cheat sheet for an app? Swipe left to hide every shortcut you don't care about, make sure the filter is set to \(Text("(none)").bold()), then print from the Shortcuts tab - hidden shortcuts are automatically left out of the PDF.")
+                    .padding(.top, 4)
             } header: {
                 HStack {
                     Image(systemName: "line.3.horizontal.decrease.circle")
