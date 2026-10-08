@@ -110,6 +110,23 @@ struct HelpView: View {
             }
 
             Section {
+                Text("Can't get shortcuts for an app the ways above, or just don't want to deal with the Mac exporter yourself? Email me and I'll see what I can do.")
+                Text("For free apps this is usually pretty easy. For paid apps I may need to own a copy myself to export from it - reach out anyway, since some developers are happy to provide a free copy when asked for something like this.")
+                Link(destination: URL(string: "mailto:shortcuts@perlguy.net")!) {
+                    HStack {
+                        Text("☞ shortcuts@perlguy.net")
+                        Spacer()
+                        Image(systemName: "envelope")
+                    }
+                }
+            } header: {
+                HStack {
+                    Image(systemName: "envelope.badge")
+                    Text("Don't See Your App?")
+                }
+            }
+
+            Section {
                 Text("I just wanted to make sure I gave credit to Ray Wenderlich at https://kodeco.com for the tutorial that inspired this app.")
             } header: {
                 HStack {
