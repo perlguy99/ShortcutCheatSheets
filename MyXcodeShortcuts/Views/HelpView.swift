@@ -6,8 +6,11 @@
 //
 
 import SwiftUI
+import AVFoundation
 
 struct HelpView: View {
+    @State private var easterEggPlayer: AVAudioPlayer?
+
     var body: some View {
         helpView
         .navigationTitle("Quick Help")
@@ -80,7 +83,7 @@ struct HelpView: View {
 
             Section {
                 Text("Tap to go to the Settings")
-                Text("In Settings you can\n\t☞ Customize the PDF title\n\t☞ Choose to show symbols or not\n\t☞ Set a custom key separator\n\t☞ Preview/Print cheatsheet")
+                Text("In Settings you can\n\t☞ Customize the PDF title\n\t☞ Choose to show symbols or not\n\t☞ Set a custom key separator")
             } header: {
                 HStack {
                     Image(systemName: "gear")
@@ -97,6 +100,32 @@ struct HelpView: View {
                     Text("Thank You!")
                 }
             }
+
+            Section {
+                Button {
+                    playDangerSound()
+                } label: {
+                    HStack {
+                        Spacer()
+                        Text("Copyright © 2026, Brent Danger Michalski")
+                            .font(.caption)
+                            .foregroundStyle(.secondary)
+                        Spacer()
+                    }
+                }
+                .buttonStyle(.plain)
+            }
+            .listRowBackground(Color.clear)
+        }
+    }
+
+    private func playDangerSound() {
+        guard let url = Bundle.main.url(forResource: "dangers_my_middle_name", withExtension: "mp3") else { return }
+        do {
+            easterEggPlayer = try AVAudioPlayer(contentsOf: url)
+            easterEggPlayer?.play()
+        } catch {
+            print("Failed to play Easter egg sound: \(error.localizedDescription)")
         }
     }
 }

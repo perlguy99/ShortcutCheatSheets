@@ -26,14 +26,14 @@ struct MainTabView: View {
 
             NavigationStack {
                 SettingsView()
-            }
-            .navigationDestination(for: Route.self) { route in
-                switch route {
-                case .help:
-                    HelpView()
-                case .categorySelection, .pdfPreview:
-                    EmptyView()
-                }
+                    .navigationDestination(for: Route.self) { route in
+                        switch route {
+                        case .help:
+                            HelpView()
+                        case .categorySelection, .pdfPreview:
+                            EmptyView()
+                        }
+                    }
             }
             .tabItem {
                 Label("Settings", systemImage: "gear")

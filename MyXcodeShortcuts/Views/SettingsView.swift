@@ -7,7 +7,6 @@
 
 import SwiftUI
 import SwiftData
-import AVFoundation
 
 enum Separator: String, CaseIterable {
     case space = " "
@@ -32,7 +31,6 @@ struct SettingsView: View {
     @Environment(StatusManager.self) private var statusManager
 
     let separatorOptions = Separator.allCases
-    @State private var easterEggPlayer: AVAudioPlayer?
 
     var body: some View {
         @Bindable var statusManager = statusManager
@@ -57,28 +55,6 @@ struct SettingsView: View {
         }
         .navigationTitle("Settings")
         .navigationBarTitleDisplayMode(.inline)
-        .toolbar {
-            ToolbarItem(placement: .bottomBar) {
-                Button {
-                    playDangerSound()
-                } label: {
-                    Text("Copyright © 2026, Brent Danger Michalski")
-                        .font(.caption)
-                        .foregroundStyle(.secondary)
-                }
-                .buttonStyle(.plain)
-            }
-        }
-    }
-
-    private func playDangerSound() {
-        guard let url = Bundle.main.url(forResource: "dangers_my_middle_name", withExtension: "mp3") else { return }
-        do {
-            easterEggPlayer = try AVAudioPlayer(contentsOf: url)
-            easterEggPlayer?.play()
-        } catch {
-            print("Failed to play Easter egg sound: \(error.localizedDescription)")
-        }
     }
 }
 
