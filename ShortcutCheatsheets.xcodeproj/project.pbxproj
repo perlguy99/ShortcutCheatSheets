@@ -48,7 +48,7 @@
 		84A3D1E22BD344ED00FF60BF /* StatusManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84A3D1E12BD344ED00FF60BF /* StatusManager.swift */; };
 		84AA00012C0000010055AA01 /* StatusManagerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84AA00012C0000010055AA02 /* StatusManagerTests.swift */; };
 		84B30A272BD01F3A0047AB24 /* KeyData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B30A262BD01F3A0047AB24 /* KeyData.swift */; };
-		84C884763077E2EE0039199B /* ShortcutCheatsheetsIcon.icon in Resources */ = {isa = PBXBuildFile; fileRef = 84C884753077E2EE0039199B /* ShortcutCheatsheetsIcon.icon */; };
+		84C884793077ECA60039199B /* CheatsheetsIcon.icon in Resources */ = {isa = PBXBuildFile; fileRef = 84C884773077ECA60039199B /* CheatsheetsIcon.icon */; };
 		84CA9AE42BCDBE010027A1FA /* CategorySelectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84CA9AE32BCDBE010027A1FA /* CategorySelectionView.swift */; };
 		84D51D382BBDCDB500E6169B /* SeedData.json in Resources */ = {isa = PBXBuildFile; fileRef = 84D51D372BBDCDB500E6169B /* SeedData.json */; };
 		84D51D3C2BBDF0DB00E6169B /* SeedData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D51D3B2BBDF0DB00E6169B /* SeedData.swift */; };
@@ -128,7 +128,7 @@
 		84A3D1E12BD344ED00FF60BF /* StatusManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatusManager.swift; sourceTree = "<group>"; };
 		84AA00012C0000010055AA02 /* StatusManagerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatusManagerTests.swift; sourceTree = "<group>"; };
 		84B30A262BD01F3A0047AB24 /* KeyData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyData.swift; sourceTree = "<group>"; };
-		84C884753077E2EE0039199B /* ShortcutCheatsheetsIcon.icon */ = {isa = PBXFileReference; lastKnownFileType = folder.iconcomposer.icon; path = ShortcutCheatsheetsIcon.icon; sourceTree = "<group>"; };
+		84C884773077ECA60039199B /* CheatsheetsIcon.icon */ = {isa = PBXFileReference; lastKnownFileType = folder.iconcomposer.icon; path = CheatsheetsIcon.icon; sourceTree = "<group>"; };
 		84CA9AE32BCDBE010027A1FA /* CategorySelectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategorySelectionView.swift; sourceTree = "<group>"; };
 		84D51D372BBDCDB500E6169B /* SeedData.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = SeedData.json; sourceTree = "<group>"; };
 		84D51D3B2BBDF0DB00E6169B /* SeedData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeedData.swift; sourceTree = "<group>"; };
@@ -200,7 +200,7 @@
 			children = (
 				8416C88A2BE59CCE009F315A /* PrivacyInfo.xcprivacy */,
 				84E55E772BD704AF00B6EDCD /* Config.xcconfig */,
-				84C884753077E2EE0039199B /* ShortcutCheatsheetsIcon.icon */,
+				84C884773077ECA60039199B /* CheatsheetsIcon.icon */,
 				846370F12BBAF8C0001ED9C3 /* MyXcodeShortcuts */,
 				846371042BBAF8C3001ED9C3 /* MyXcodeShortcutsTests */,
 				8463710E2BBAF8C3001ED9C3 /* MyXcodeShortcutsUITests */,
@@ -474,8 +474,8 @@
 				846370F92BBAF8C2001ED9C3 /* Assets.xcassets in Resources */,
 				840103F02BD2BB0200B467D1 /* SeedData_UnitTests.json in Resources */,
 				84ED14E82BC9E7DA00375EED /* SeedData_Release_1.json in Resources */,
+				84C884793077ECA60039199B /* CheatsheetsIcon.icon in Resources */,
 				84D51D382BBDCDB500E6169B /* SeedData.json in Resources */,
-				84C884763077E2EE0039199B /* ShortcutCheatsheetsIcon.icon in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -743,7 +743,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 84E55E772BD704AF00B6EDCD /* Config.xcconfig */;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = ShortcutCheatsheetsIcon;
+				ASSETCATALOG_COMPILER_APPICON_NAME = CheatsheetsIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
@@ -782,7 +782,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 84E55E772BD704AF00B6EDCD /* Config.xcconfig */;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = ShortcutCheatsheetsIcon;
+				ASSETCATALOG_COMPILER_APPICON_NAME = CheatsheetsIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;

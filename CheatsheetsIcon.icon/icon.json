@@ -1,0 +1,47 @@
+{
+  "fill" : {
+    "linear-gradient" : [
+      "display-p3:1.00000,0.69804,0.11765,1.00000",
+      "srgb:1.00000,0.36863,0.35686,1.00000"
+    ]
+  },
+  "groups" : [
+    {
+      "layers" : [
+        {
+          "image-name" : "amber-3-command-glyph.svg",
+          "name" : "amber-3-command-glyph"
+        },
+        {
+          "image-name" : "amber-2-key-face.svg",
+          "name" : "amber-2-key-face"
+        },
+        {
+          "image-name" : "amber-1-key-base.svg",
+          "name" : "amber-1-key-base",
+          "position" : {
+            "scale" : 1,
+            "translation-in-points" : [
+              0,
+              -7
+            ]
+          }
+        }
+      ],
+      "shadow" : {
+        "kind" : "neutral",
+        "opacity" : 0.5
+      },
+      "translucency" : {
+        "enabled" : true,
+        "value" : 0.3
+      }
+    }
+  ],
+  "supported-platforms" : {
+    "circles" : [
+      "watchOS"
+    ],
+    "squares" : "shared"
+  }
+}
