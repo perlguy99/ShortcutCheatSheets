@@ -31,8 +31,6 @@ struct SplashScreen: View {
         VStack {
             // Grouping header texts
             VStack(spacing: 10) {
-                Text("Welcome to")
-                    .font(.largeTitle)
                 Text("Shortcut Cheat Sheets")
                     .font(.largeTitle)
             }
