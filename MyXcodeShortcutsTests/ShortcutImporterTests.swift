@@ -105,6 +105,40 @@ final class ShortcutImporterTests: XCTestCase {
         XCTAssertEqual(editCategory?.shortcuts.count, 1)
     }
 
+    /// Integration test using a real file captured from `swift run ShortcutExtractor
+    /// com.apple.finder` (checked in as RealExporterOutput_Finder.json), not a hand-written
+    /// fixture - proves the actual end-to-end pipeline advanced users rely on (Mac exporter ->
+    /// JSON -> Collections tab import) still works against genuine exporter output, not just
+    /// JSON shaped the way this test file's author assumes the exporter produces.
+    @MainActor
+    func testImportCollectionAcceptsRealMacExporterOutput() throws {
+        let fixtureURL = try XCTUnwrap(
+            Bundle(for: Self.self).url(forResource: "RealExporterOutput_Finder", withExtension: "json"),
+            "RealExporterOutput_Finder.json fixture is missing from the test bundle"
+        )
+        let data = try Data(contentsOf: fixtureURL)
+
+        let schema = Schema([ShortcutApp.self, Category.self, Shortcut.self])
+        let configuration = ModelConfiguration(schema: schema, isStoredInMemoryOnly: true)
+        let container = try ModelContainer(for: schema, configurations: [configuration])
+        let context = container.mainContext
+
+        let newApp = try ShortcutImporter.importCollection(named: "Finder Shortcuts", from: data, into: context)
+
+        XCTAssertEqual(newApp.name, "Finder Shortcuts")
+        XCTAssertGreaterThan(newApp.categories.count, 0, "Real exporter output should produce at least one category")
+
+        let totalShortcuts = newApp.categories.reduce(0) { $0 + $1.shortcuts.count }
+        XCTAssertGreaterThan(totalShortcuts, 0, "Real exporter output should produce at least one shortcut")
+
+        for category in newApp.categories {
+            XCTAssertFalse(category.name.isEmpty)
+            for shortcut in category.shortcuts {
+                XCTAssertFalse(shortcut.keyCombo.isEmpty, "Every real shortcut should have a non-empty key combo")
+            }
+        }
+    }
+
     @MainActor
     func testImportCollectionThrowsAndInsertsNothingOnMalformedJSON() throws {
         let schema = Schema([ShortcutApp.self, Category.self, Shortcut.self])

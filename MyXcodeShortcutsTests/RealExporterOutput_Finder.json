@@ -1,0 +1,482 @@
+{
+  "categories" : [
+    {
+      "name" : "Finder",
+      "shortcuts" : [
+        {
+          "details" : "Settings…",
+          "keyCombo" : "Cmd ,"
+        },
+        {
+          "details" : "Empty Trash…",
+          "keyCombo" : "Shift Cmd delete"
+        },
+        {
+          "details" : "Empty Trash",
+          "keyCombo" : "Opt Shift Cmd delete"
+        },
+        {
+          "details" : "Hide Finder",
+          "keyCombo" : "Cmd H"
+        },
+        {
+          "details" : "Hide Others",
+          "keyCombo" : "Opt Cmd H"
+        }
+      ]
+    },
+    {
+      "name" : "File",
+      "shortcuts" : [
+        {
+          "details" : "New Finder Window",
+          "keyCombo" : "Cmd N"
+        },
+        {
+          "details" : "New Folder",
+          "keyCombo" : "Shift Cmd N"
+        },
+        {
+          "details" : "New Folder with Selection",
+          "keyCombo" : "Ctrl Cmd N"
+        },
+        {
+          "details" : "New Tab",
+          "keyCombo" : "Cmd T"
+        },
+        {
+          "details" : "Open",
+          "keyCombo" : "Cmd O"
+        },
+        {
+          "details" : "Open in New Tab",
+          "keyCombo" : "Ctrl Cmd O"
+        },
+        {
+          "details" : "Open in New Window and Close",
+          "keyCombo" : "Opt Cmd O"
+        },
+        {
+          "details" : "Close Window",
+          "keyCombo" : "Cmd W"
+        },
+        {
+          "details" : "Close All",
+          "keyCombo" : "Opt Cmd W"
+        },
+        {
+          "details" : "Get Info",
+          "keyCombo" : "Cmd I"
+        },
+        {
+          "details" : "Show Inspector",
+          "keyCombo" : "Opt Cmd I"
+        },
+        {
+          "details" : "Get Summary Info",
+          "keyCombo" : "Ctrl Cmd I"
+        },
+        {
+          "details" : "Duplicate",
+          "keyCombo" : "Cmd D"
+        },
+        {
+          "details" : "Duplicate Exactly",
+          "keyCombo" : "Opt Shift Cmd D"
+        },
+        {
+          "details" : "Make Alias",
+          "keyCombo" : "Ctrl Cmd A"
+        },
+        {
+          "details" : "Quick Look",
+          "keyCombo" : "Cmd Y"
+        },
+        {
+          "details" : "Slideshow",
+          "keyCombo" : "Opt Cmd Y"
+        },
+        {
+          "details" : "Show Original",
+          "keyCombo" : "Cmd R"
+        },
+        {
+          "details" : "Add to Sidebar",
+          "keyCombo" : "Ctrl Cmd T"
+        },
+        {
+          "details" : "Add to Dock",
+          "keyCombo" : "Ctrl Shift Cmd T"
+        },
+        {
+          "details" : "Move to Trash",
+          "keyCombo" : "Cmd delete"
+        },
+        {
+          "details" : "Delete Immediately…",
+          "keyCombo" : "Opt Cmd delete"
+        },
+        {
+          "details" : "Eject",
+          "keyCombo" : "Cmd E"
+        },
+        {
+          "details" : "Eject",
+          "keyCombo" : "Ctrl Cmd E"
+        },
+        {
+          "details" : "Eject",
+          "keyCombo" : "Opt Cmd E"
+        },
+        {
+          "details" : "Print",
+          "keyCombo" : "Cmd P"
+        }
+      ]
+    },
+    {
+      "name" : "Edit",
+      "shortcuts" : [
+        {
+          "details" : "Undo Copy of “Icon Composer”",
+          "keyCombo" : "Cmd Z"
+        },
+        {
+          "details" : "Redo",
+          "keyCombo" : "Shift Cmd Z"
+        },
+        {
+          "details" : "Cut",
+          "keyCombo" : "Cmd X"
+        },
+        {
+          "details" : "Copy",
+          "keyCombo" : "Cmd C"
+        },
+        {
+          "details" : "Copy “Desktop” as Pathname",
+          "keyCombo" : "Opt Cmd C"
+        },
+        {
+          "details" : "Copy as Link",
+          "keyCombo" : "Ctrl Opt Cmd C"
+        },
+        {
+          "details" : "Paste",
+          "keyCombo" : "Cmd V"
+        },
+        {
+          "details" : "Move Item Here",
+          "keyCombo" : "Opt Cmd V"
+        },
+        {
+          "details" : "Paste Exactly",
+          "keyCombo" : "Opt Shift Cmd V"
+        },
+        {
+          "details" : "Select All",
+          "keyCombo" : "Cmd A"
+        },
+        {
+          "details" : "Deselect All",
+          "keyCombo" : "Opt Cmd A"
+        },
+        {
+          "details" : "Search",
+          "keyCombo" : "Cmd F"
+        },
+        {
+          "details" : "Search by Name…",
+          "keyCombo" : "Ctrl Shift Cmd F"
+        },
+        {
+          "details" : "Emoji & Symbols",
+          "keyCombo" : "🌐"
+        }
+      ]
+    },
+    {
+      "name" : "View",
+      "shortcuts" : [
+        {
+          "details" : "as Icons",
+          "keyCombo" : "Cmd 1"
+        },
+        {
+          "details" : "as List",
+          "keyCombo" : "Cmd 2"
+        },
+        {
+          "details" : "as Columns",
+          "keyCombo" : "Cmd 3"
+        },
+        {
+          "details" : "as Gallery",
+          "keyCombo" : "Cmd 4"
+        },
+        {
+          "details" : "Use Stacks",
+          "keyCombo" : "Ctrl Cmd 0"
+        },
+        {
+          "details" : "None",
+          "keyCombo" : "Ctrl Opt Cmd 0"
+        },
+        {
+          "details" : "Name",
+          "keyCombo" : "Ctrl Opt Cmd 1"
+        },
+        {
+          "details" : "Kind",
+          "keyCombo" : "Ctrl Opt Cmd 2"
+        },
+        {
+          "details" : "Date Last Opened",
+          "keyCombo" : "Ctrl Opt Cmd 3"
+        },
+        {
+          "details" : "Date Added",
+          "keyCombo" : "Ctrl Opt Cmd 4"
+        },
+        {
+          "details" : "Date Modified",
+          "keyCombo" : "Ctrl Opt Cmd 5"
+        },
+        {
+          "details" : "Size",
+          "keyCombo" : "Ctrl Opt Cmd 6"
+        },
+        {
+          "details" : "Tags",
+          "keyCombo" : "Ctrl Opt Cmd 7"
+        },
+        {
+          "details" : "Name",
+          "keyCombo" : "Opt Cmd 1"
+        },
+        {
+          "details" : "Kind",
+          "keyCombo" : "Opt Cmd 2"
+        },
+        {
+          "details" : "Date Modified",
+          "keyCombo" : "Opt Cmd 5"
+        },
+        {
+          "details" : "Size",
+          "keyCombo" : "Opt Cmd 6"
+        },
+        {
+          "details" : "Tags",
+          "keyCombo" : "Opt Cmd 7"
+        },
+        {
+          "details" : "Show Tab Bar",
+          "keyCombo" : "Shift Cmd T"
+        },
+        {
+          "details" : "Show All Tabs",
+          "keyCombo" : "Shift Cmd \\"
+        },
+        {
+          "details" : "Hide Sidebar",
+          "keyCombo" : "Ctrl Cmd S"
+        },
+        {
+          "details" : "Show Preview",
+          "keyCombo" : "Shift Cmd P"
+        },
+        {
+          "details" : "Hide Toolbar",
+          "keyCombo" : "Opt Cmd T"
+        },
+        {
+          "details" : "Show Path Bar",
+          "keyCombo" : "Opt Cmd P"
+        },
+        {
+          "details" : "Show Status Bar",
+          "keyCombo" : "Cmd \/"
+        },
+        {
+          "details" : "Show View Options",
+          "keyCombo" : "Cmd J"
+        },
+        {
+          "details" : "Enter Full Screen",
+          "keyCombo" : "F"
+        }
+      ]
+    },
+    {
+      "name" : "Go",
+      "shortcuts" : [
+        {
+          "details" : "Back",
+          "keyCombo" : "Cmd ["
+        },
+        {
+          "details" : "Forward",
+          "keyCombo" : "Cmd ]"
+        },
+        {
+          "details" : "Enclosing Folder",
+          "keyCombo" : "Cmd uparrow"
+        },
+        {
+          "details" : "Enclosing Folder",
+          "keyCombo" : "Opt Cmd uparrow"
+        },
+        {
+          "details" : "Enclosing Folder in New Window",
+          "keyCombo" : "Ctrl Cmd uparrow"
+        },
+        {
+          "details" : "Select Startup Disk",
+          "keyCombo" : "Shift Cmd uparrow"
+        },
+        {
+          "details" : "Recents",
+          "keyCombo" : "Shift Cmd F"
+        },
+        {
+          "details" : "Documents",
+          "keyCombo" : "Shift Cmd O"
+        },
+        {
+          "details" : "Desktop",
+          "keyCombo" : "Shift Cmd D"
+        },
+        {
+          "details" : "Downloads",
+          "keyCombo" : "Opt Cmd L"
+        },
+        {
+          "details" : "Home",
+          "keyCombo" : "Shift Cmd H"
+        },
+        {
+          "details" : "Computer",
+          "keyCombo" : "Shift Cmd C"
+        },
+        {
+          "details" : "AirDrop",
+          "keyCombo" : "Shift Cmd R"
+        },
+        {
+          "details" : "Network",
+          "keyCombo" : "Shift Cmd K"
+        },
+        {
+          "details" : "iCloud Drive",
+          "keyCombo" : "Shift Cmd I"
+        },
+        {
+          "details" : "Shared",
+          "keyCombo" : "Shift Cmd S"
+        },
+        {
+          "details" : "Applications",
+          "keyCombo" : "Shift Cmd A"
+        },
+        {
+          "details" : "Utilities",
+          "keyCombo" : "Shift Cmd U"
+        },
+        {
+          "details" : "Go to Folder…",
+          "keyCombo" : "Shift Cmd G"
+        },
+        {
+          "details" : "Connect to Server…",
+          "keyCombo" : "Cmd K"
+        }
+      ]
+    },
+    {
+      "name" : "Window",
+      "shortcuts" : [
+        {
+          "details" : "Minimize",
+          "keyCombo" : "Cmd M"
+        },
+        {
+          "details" : "Minimize All",
+          "keyCombo" : "Opt Cmd M"
+        },
+        {
+          "details" : "Fill",
+          "keyCombo" : "Ctrl F"
+        },
+        {
+          "details" : "Center",
+          "keyCombo" : "Ctrl C"
+        },
+        {
+          "details" : "Left",
+          "keyCombo" : "Ctrl leftarrow"
+        },
+        {
+          "details" : "Right",
+          "keyCombo" : "Ctrl rightarrow"
+        },
+        {
+          "details" : "Top",
+          "keyCombo" : "Ctrl uparrow"
+        },
+        {
+          "details" : "Bottom",
+          "keyCombo" : "Ctrl downarrow"
+        },
+        {
+          "details" : "Left & Right",
+          "keyCombo" : "Ctrl Shift leftarrow"
+        },
+        {
+          "details" : "Left & Quarters",
+          "keyCombo" : "Ctrl Opt Shift leftarrow"
+        },
+        {
+          "details" : "Right & Left",
+          "keyCombo" : "Ctrl Shift rightarrow"
+        },
+        {
+          "details" : "Right & Quarters",
+          "keyCombo" : "Ctrl Opt Shift rightarrow"
+        },
+        {
+          "details" : "Top & Bottom",
+          "keyCombo" : "Ctrl Shift uparrow"
+        },
+        {
+          "details" : "Top & Quarters",
+          "keyCombo" : "Ctrl Opt Shift uparrow"
+        },
+        {
+          "details" : "Bottom & Top",
+          "keyCombo" : "Ctrl Shift downarrow"
+        },
+        {
+          "details" : "Bottom & Quarters",
+          "keyCombo" : "Ctrl Opt Shift downarrow"
+        },
+        {
+          "details" : "Return to Previous Size",
+          "keyCombo" : "Ctrl R"
+        },
+        {
+          "details" : "Cycle Through Windows",
+          "keyCombo" : "Cmd `"
+        },
+        {
+          "details" : "Show Previous Tab",
+          "keyCombo" : "Ctrl Shift tab"
+        },
+        {
+          "details" : "Show Next Tab",
+          "keyCombo" : "Ctrl tab"
+        }
+      ]
+    }
+  ]
+}

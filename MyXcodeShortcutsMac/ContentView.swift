@@ -12,7 +12,7 @@ struct ContentView: View {
 
     var body: some View {
         VStack(alignment: .leading, spacing: 16) {
-            Text("Xcode Shortcut Exporter")
+            Text("Shortcut Cheat Sheets Exporter")
                 .font(.title2)
                 .bold()
 
@@ -63,7 +63,7 @@ struct ContentView: View {
         .onAppear {
             loadRunningApps()
             if ShortcutScraper.isAccessibilityTrusted() == false {
-                statusMessage = "Accessibility permission needed — enable this app in System Settings > Privacy & Security > Accessibility."
+                statusMessage = "Accessibility permission needed — enable this app in System Settings > Privacy & Security (also called Device Control and Data Access on some macOS versions) > Accessibility."
             }
         }
     }
