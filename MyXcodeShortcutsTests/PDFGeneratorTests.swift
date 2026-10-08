@@ -9,7 +9,7 @@ import XCTest
 import SwiftUI
 import SwiftData
 
-@testable import MyXcodeShortcuts
+@testable import ShortcutCheatsheets
 
 final class PDFGeneratorTests: XCTestCase {
     var statusManager: StatusManager!
@@ -104,6 +104,20 @@ final class PDFGeneratorTests: XCTestCase {
         var textWhite: CGFloat = 0
         XCTAssertTrue(generator.textColor.getWhite(&textWhite, alpha: nil))
         XCTAssertLessThan(textWhite, 0.6, "Text color is too light to read on the PDF's white page")
+    }
+
+    /// Regression test: the footer's copyright year was hardcoded and had drifted to a stale
+    /// "©2024" even after the rest of the app (splash screen, Settings) moved to 2026. Reads
+    /// the actual rendered page text rather than duplicating the literal string, so this only
+    /// passes if the real PDF output shows the current year, not just the source matching
+    /// whatever this test expects.
+    @MainActor
+    func testFooterShowsCurrentCopyrightYear() throws {
+        let generator = PDFGenerator(categories: [], statusManager: statusManager)
+        let renderedDocument = generator.renderDocument()
+
+        let pageText = renderedDocument?.page(at: 0)?.string ?? ""
+        XCTAssertTrue(pageText.contains("©2026"), "Expected the PDF footer to show the current copyright year, but got: \(pageText)")
     }
 
 }

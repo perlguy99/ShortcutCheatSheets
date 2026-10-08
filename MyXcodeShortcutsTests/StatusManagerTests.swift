@@ -4,7 +4,7 @@
 //
 
 import XCTest
-@testable import MyXcodeShortcuts
+@testable import ShortcutCheatsheets
 
 /// Uses a dedicated `UserDefaults` suite per test, cleared in setUp/tearDown, instead of
 /// touching real `UserDefaults.standard` — keeps these tests isolated and order-independent.

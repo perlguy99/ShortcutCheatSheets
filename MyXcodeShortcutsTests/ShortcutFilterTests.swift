@@ -9,7 +9,7 @@ import XCTest
 import SwiftUI
 import SwiftData
 
-@testable import MyXcodeShortcuts
+@testable import ShortcutCheatsheets
 
 final class ShortcutFilterTests: XCTestCase {
     var statusInt = 0

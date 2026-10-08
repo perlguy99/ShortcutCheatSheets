@@ -8,7 +8,7 @@
 import XCTest
 import SwiftUI
 
-@testable import MyXcodeShortcuts
+@testable import ShortcutCheatsheets
 
 class TDDShortcutSymbolConversionTests: XCTestCase {
     let testSeparator = "~"

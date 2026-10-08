@@ -10,7 +10,7 @@
 import XCTest
 import SwiftData
 
-@testable import MyXcodeShortcuts
+@testable import ShortcutCheatsheets
 
 final class ShortcutImporterTests: XCTestCase {
 
@@ -90,7 +90,7 @@ final class ShortcutImporterTests: XCTestCase {
         XCTAssertEqual(fetchedApps.count, 1)
         XCTAssertEqual(fetchedApps.first?.id, newApp.id)
 
-        let fetchedCategories = try context.fetch(FetchDescriptor<MyXcodeShortcuts.Category>())
+        let fetchedCategories = try context.fetch(FetchDescriptor<ShortcutCheatsheets.Category>())
         XCTAssertEqual(fetchedCategories.count, 2)
         for category in fetchedCategories {
             XCTAssertEqual(category.shortcutApp?.id, newApp.id)

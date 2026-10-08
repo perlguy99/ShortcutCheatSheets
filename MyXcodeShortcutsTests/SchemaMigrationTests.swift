@@ -11,7 +11,7 @@
 import XCTest
 import SwiftData
 
-@testable import MyXcodeShortcuts
+@testable import ShortcutCheatsheets
 
 final class SchemaMigrationTests: XCTestCase {
 
@@ -51,7 +51,7 @@ final class SchemaMigrationTests: XCTestCase {
         let container = try ModelContainer(for: schema, migrationPlan: MigrationPlan.self, configurations: [config])
         let context = container.mainContext
 
-        let categories = try context.fetch(FetchDescriptor<MyXcodeShortcuts.Category>())
+        let categories = try context.fetch(FetchDescriptor<ShortcutCheatsheets.Category>())
         XCTAssertEqual(categories.count, 1)
         let category = try XCTUnwrap(categories.first)
         XCTAssertEqual(category.name, "Xcode")
@@ -93,7 +93,7 @@ final class SchemaMigrationTests: XCTestCase {
         let container = try ModelContainer(for: schema, migrationPlan: MigrationPlan.self, configurations: [config])
         let context = container.mainContext
 
-        let categories = try context.fetch(FetchDescriptor<MyXcodeShortcuts.Category>())
+        let categories = try context.fetch(FetchDescriptor<ShortcutCheatsheets.Category>())
         XCTAssertEqual(categories.count, 1)
         let category = try XCTUnwrap(categories.first)
         XCTAssertEqual(category.name, "Xcode")

@@ -196,7 +196,7 @@ class PDFGenerator {
     
     fileprivate func renderFooter() {
         let leftText = "Inspired By: raywenderlich.com/Kodeco.com"
-        let rightText = "©2024 Brent Michalski. All rights reserved"
+        let rightText = "©2026 Brent Michalski. All rights reserved"
         leftText.draw(at: CGPoint(x: margin, y: PDFSize.height - 20))
         rightText.draw(at: CGPoint(x: PDFSize.width - 250, y: PDFSize.height - 20))
     }
