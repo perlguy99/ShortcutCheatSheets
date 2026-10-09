@@ -17,6 +17,7 @@ struct CollectionsView: View {
 
     @Query(sort: \ShortcutApp.name) private var shortcutApps: [ShortcutApp]
     @State private var isShowingImportSheet = false
+    @State private var isShowingLibrarySheet = false
 
     /// Called after the user explicitly picks or imports a collection (not after the automatic
     /// reassignment that happens when the active collection gets deleted) - lets the presenter
@@ -50,6 +51,13 @@ struct CollectionsView: View {
         .toolbar {
             ToolbarItem(placement: .topBarTrailing) {
                 Button {
+                    isShowingLibrarySheet = true
+                } label: {
+                    Label("Browse Library", systemImage: "tray.and.arrow.down")
+                }
+            }
+            ToolbarItem(placement: .topBarTrailing) {
+                Button {
                     isShowingImportSheet = true
                 } label: {
                     Label("New Collection", systemImage: "plus")
@@ -59,6 +67,14 @@ struct CollectionsView: View {
         .sheet(isPresented: $isShowingImportSheet) {
             NavigationStack {
                 ImportCollectionView { newApp in
+                    select(newApp)
+                    onSelect()
+                }
+            }
+        }
+        .sheet(isPresented: $isShowingLibrarySheet) {
+            NavigationStack {
+                BrowseLibraryView { newApp in
                     select(newApp)
                     onSelect()
                 }
