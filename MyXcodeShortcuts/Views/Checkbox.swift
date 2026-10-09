@@ -33,9 +33,18 @@ struct Checkbox: View {
     }
 
     // Tap only toggles favorite on/off. Hiding (and un-hiding) happens via the
-    // swipe action instead, so a stray tap can never make a row silently vanish.
+    // swipe action instead, so a stray tap can never make a row silently vanish -
+    // including on an already-hidden row, where a tap must stay a no-op rather
+    // than un-hiding it as a side effect of favoriting.
     func buttonTap() {
-        state = state == .favorite ? .none : .favorite
+        switch state {
+        case .favorite:
+            state = .none
+        case .none:
+            state = .favorite
+        case .hidden:
+            break
+        }
     }
 }
 

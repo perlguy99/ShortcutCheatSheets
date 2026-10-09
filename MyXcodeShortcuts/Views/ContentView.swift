@@ -63,7 +63,7 @@ struct ContentView: View {
             .navigationDestination(for: Route.self) { route in
                 switch route {
                 case .categorySelection(let shortcut):
-                    CategorySelectionView(shortcut: shortcut)
+                    CategorySelectionView(shortcut: shortcut, activeShortcutApp: activeShortcutApp)
                 case .pdfPreview(let data):
                     PDFPreviewView(data: data, statusManager: statusManager)
                 case .help:

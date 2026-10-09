@@ -14,7 +14,13 @@ struct EditCategoryView: View {
     
     @Query private var categories: [Category]
     @Bindable var category: Category
-    
+
+    /// Other categories in the same collection as `category` - scoped so a multi-collection
+    /// setup doesn't mix in categories (and their shortcut counts) from unrelated collections.
+    private var siblingCategories: [Category] {
+        categories.filter { $0.shortcutApp?.id == category.shortcutApp?.id }
+    }
+
     var body: some View {
         Form {
             Section("Category Name") {
@@ -28,7 +34,7 @@ struct EditCategoryView: View {
                         .padding(.bottom, 20)
                  
                     List {
-                        ForEach(categories) { category in
+                        ForEach(siblingCategories) { category in
                             Divider()
                             
                             HStack {

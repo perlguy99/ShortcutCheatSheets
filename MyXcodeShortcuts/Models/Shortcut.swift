@@ -40,7 +40,9 @@ class Shortcut {
                 // If the filter is set to .favorite, only show favorites.
                 return self.status == .favorite
             case .hidden:
-                // If the filter is set to .hidden, exclude hidden shortcuts.
+                // "Showing Hidden" mode is for managing hidden items, so it
+                // shows everything (including non-hidden shortcuts), not just
+                // the hidden ones.
                 return true
         }
     }
