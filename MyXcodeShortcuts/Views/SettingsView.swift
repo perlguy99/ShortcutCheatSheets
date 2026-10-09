@@ -36,8 +36,12 @@ struct SettingsView: View {
         @Bindable var statusManager = statusManager
 
         Form {
-            Section(header: Text("PDF Title")) {
+            Section {
                 TextField("PDF Title", text: $statusManager.pdfTitle)
+            } header: {
+                Text("PDF Title")
+            } footer: {
+                Text("Shown as the title at the top of your printed cheat sheet.")
             }
             Section(header: Text("Show Symbols")) {
                 Toggle("Show Symbols", isOn: $statusManager.showSymbols)
