@@ -15,6 +15,7 @@ struct ContentView: View {
     @Environment(StatusManager.self) private var statusManager
     
     @State private var navigationPath = NavigationPath()
+    @State private var isGeneratingPDF = false
 
     @Query private var categories: [Category]
     @Query(sort: \ShortcutApp.name) private var shortcutApps: [ShortcutApp]
@@ -97,16 +98,29 @@ struct ContentView: View {
     
     private func printToolbarItem() -> some View {
         Button(action: printPDF) {
-            Label("Print", systemImage: "printer")
+            if isGeneratingPDF {
+                ProgressView()
+            } else {
+                Label("Print", systemImage: "printer")
+            }
         }
-        .disabled(visibleCategories.isEmpty)
+        .disabled(visibleCategories.isEmpty || isGeneratingPDF)
     }
 
     private func printPDF() {
-        let viewModel = PDFViewModel(categories: visibleCategories, statusManager: statusManager)
-        viewModel.generatePDF()
-        if let data = viewModel.pdfData {
-            navigationPath.append(Route.pdfPreview(data))
+        // Flip the state first and defer the actual (synchronous, can take a
+        // moment on a large collection) generation to the next run loop turn,
+        // so SwiftUI gets a chance to actually paint the spinner before the
+        // blocking work starts - otherwise the button would just sit there
+        // looking unresponsive with no feedback that a tap registered at all.
+        isGeneratingPDF = true
+        DispatchQueue.main.async {
+            let viewModel = PDFViewModel(categories: visibleCategories, statusManager: statusManager)
+            viewModel.generatePDF()
+            isGeneratingPDF = false
+            if let data = viewModel.pdfData {
+                navigationPath.append(Route.pdfPreview(data))
+            }
         }
     }
 
