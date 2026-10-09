@@ -18,6 +18,12 @@ struct CollectionsView: View {
     @Query(sort: \ShortcutApp.name) private var shortcutApps: [ShortcutApp]
     @State private var isShowingImportSheet = false
 
+    /// Called after the user explicitly picks or imports a collection (not after the automatic
+    /// reassignment that happens when the active collection gets deleted) - lets the presenter
+    /// jump back to the Shortcuts tab so picking a collection has an obvious, visible result
+    /// instead of leaving the user to go check another tab to see if it took.
+    var onSelect: () -> Void = {}
+
     private var activeID: UUID? {
         UUID(uuidString: statusManager.activeShortcutAppID) ?? shortcutApps.first?.id
     }
@@ -30,6 +36,7 @@ struct CollectionsView: View {
                 ForEach(shortcutApps) { shortcutApp in
                     Button {
                         select(shortcutApp)
+                        onSelect()
                     } label: {
                         row(for: shortcutApp)
                     }
@@ -53,6 +60,7 @@ struct CollectionsView: View {
             NavigationStack {
                 ImportCollectionView { newApp in
                     select(newApp)
+                    onSelect()
                 }
             }
         }

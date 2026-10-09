@@ -10,19 +10,27 @@
 import SwiftUI
 
 struct MainTabView: View {
+    enum Tab {
+        case shortcuts, collections, settings
+    }
+
+    @State private var selectedTab: Tab = .shortcuts
+
     var body: some View {
-        TabView {
+        TabView(selection: $selectedTab) {
             ContentView()
                 .tabItem {
                     Label("Shortcuts", systemImage: "keyboard")
                 }
+                .tag(Tab.shortcuts)
 
             NavigationStack {
-                CollectionsView()
+                CollectionsView(onSelect: { selectedTab = .shortcuts })
             }
             .tabItem {
                 Label("Collections", systemImage: "square.stack.3d.up")
             }
+            .tag(Tab.collections)
 
             NavigationStack {
                 SettingsView()
@@ -38,6 +46,7 @@ struct MainTabView: View {
             .tabItem {
                 Label("Settings", systemImage: "gear")
             }
+            .tag(Tab.settings)
         }
     }
 }
