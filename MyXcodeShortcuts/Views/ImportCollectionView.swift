@@ -29,6 +29,21 @@ struct ImportCollectionView: View {
 
     var body: some View {
         Form {
+            Section {
+                Text("Collections are built from a JSON file exported by the free Mac companion app, which reads an app's real menu bar and turns its shortcuts into a file you can import here.")
+                    .font(.footnote)
+                    .foregroundStyle(.secondary)
+                Link(destination: URL(string: "https://github.com/perlguy99/ShortcutCheatSheets/blob/main/README.md")!) {
+                    HStack {
+                        Text("Full instructions")
+                            .font(.footnote)
+                        Spacer()
+                        Image(systemName: "arrow.up.right.square")
+                            .font(.footnote)
+                    }
+                }
+            }
+
             Section(header: Text("Collection Name")) {
                 TextField("e.g. Finder Shortcuts", text: $collectionName)
                     .textFieldStyle(.roundedBorder)
