@@ -21,7 +21,11 @@ struct BrowseLibraryView: View {
     var onImported: (ShortcutApp) -> Void
 
     @State private var manifest: LibraryManifest?
-    @State private var isLoadingManifest = false
+    // Starts true (not false) so the spinner is visible from the very first frame, before
+    // .task even gets a chance to run - otherwise none of the three body branches match on
+    // that first render and the sheet shows nothing at all with zero indication anything's
+    // happening, which is exactly the bug this is fixing.
+    @State private var isLoadingManifest = true
     @State private var errorMessage: String?
     @State private var importingEntryID: String?
 

@@ -38,4 +38,39 @@ final class MyXcodeShortcutsUITests: XCTestCase {
             }
         }
     }
+
+    /// Diagnostic test: drives the real UI to the Browse Library sheet and screenshots it at
+    /// several points, to actually see what renders instead of just reasoning about the code.
+    func testBrowseLibrarySheetShowsContent() throws {
+        let app = XCUIApplication()
+        app.launch()
+
+        let collectionsTab = app.tabBars.buttons["Collections"]
+        XCTAssertTrue(collectionsTab.waitForExistence(timeout: 5), "Collections tab button not found")
+        collectionsTab.tap()
+
+        let browseButton = app.buttons["Browse Library"]
+        XCTAssertTrue(browseButton.waitForExistence(timeout: 5), "Browse Library toolbar button not found")
+        browseButton.tap()
+
+        // Screenshot immediately after tapping, before the fetch could possibly complete -
+        // this is exactly the frame that used to render blank.
+        let immediateAttachment = XCTAttachment(screenshot: app.screenshot())
+        immediateAttachment.name = "01-immediately-after-tap"
+        immediateAttachment.lifetime = .keepAlways
+        add(immediateAttachment)
+
+        // Then wait for either the real list or an error to actually appear.
+        let finderRow = app.staticTexts["Finder Shortcuts"]
+        let errorText = app.staticTexts.matching(NSPredicate(format: "label CONTAINS[c] 'Couldn'")).firstMatch
+        let appeared = finderRow.waitForExistence(timeout: 15) || errorText.waitForExistence(timeout: 1)
+
+        let finalAttachment = XCTAttachment(screenshot: app.screenshot())
+        finalAttachment.name = "02-after-wait"
+        finalAttachment.lifetime = .keepAlways
+        add(finalAttachment)
+
+        XCTAssertTrue(appeared, "Neither the library list nor an error message ever appeared")
+        XCTAssertTrue(finderRow.exists, "Expected to see 'Finder Shortcuts' in the real hosted library list")
+    }
 }
