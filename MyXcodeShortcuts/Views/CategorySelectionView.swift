@@ -27,9 +27,17 @@ struct CategorySelectionView: View {
 
     var body: some View {
         Form {
-            TextField(textFieldPlaceholder, text: $tempCategoryName)
-                .textFieldStyle(.roundedBorder)
-                .padding(.bottom, 20)
+            HStack {
+                TextField(textFieldPlaceholder, text: $tempCategoryName)
+                    .textFieldStyle(.roundedBorder)
+
+                Button("Add") {
+                    insertNewCategoryAndStoreInShortcut()
+                    dismiss()
+                }
+                .disabled(tempCategoryName.isEmpty)
+            }
+            .padding(.bottom, 20)
 
             categoryListOrMessage
 
