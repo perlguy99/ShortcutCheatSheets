@@ -1,0 +1,283 @@
+{
+  "categories" : [
+    {
+      "name" : "Claude",
+      "shortcuts" : [
+        {
+          "details" : "Settings…",
+          "keyCombo" : "Cmd ,"
+        },
+        {
+          "details" : "Hide Claude",
+          "keyCombo" : "Cmd H"
+        },
+        {
+          "details" : "Hide Others",
+          "keyCombo" : "Opt Cmd H"
+        },
+        {
+          "details" : "Quit Claude",
+          "keyCombo" : "Cmd Q"
+        }
+      ]
+    },
+    {
+      "name" : "File",
+      "shortcuts" : [
+        {
+          "details" : "New Chat",
+          "keyCombo" : "Cmd N"
+        },
+        {
+          "details" : "Open File…",
+          "keyCombo" : "Cmd O"
+        },
+        {
+          "details" : "Open Folder…",
+          "keyCombo" : "Shift Cmd O"
+        },
+        {
+          "details" : "Close Window",
+          "keyCombo" : "Cmd W"
+        },
+        {
+          "details" : "Close All",
+          "keyCombo" : "Opt Cmd W"
+        }
+      ]
+    },
+    {
+      "name" : "Edit",
+      "shortcuts" : [
+        {
+          "details" : "Undo",
+          "keyCombo" : "Cmd Z"
+        },
+        {
+          "details" : "Redo",
+          "keyCombo" : "Shift Cmd Z"
+        },
+        {
+          "details" : "Cut",
+          "keyCombo" : "Cmd X"
+        },
+        {
+          "details" : "Copy",
+          "keyCombo" : "Cmd C"
+        },
+        {
+          "details" : "Paste",
+          "keyCombo" : "Cmd V"
+        },
+        {
+          "details" : "Paste and Match Style",
+          "keyCombo" : "Opt Shift Cmd V"
+        },
+        {
+          "details" : "Select All",
+          "keyCombo" : "Cmd A"
+        },
+        {
+          "details" : "Find…",
+          "keyCombo" : "Cmd F"
+        },
+        {
+          "details" : "Find Next",
+          "keyCombo" : "Cmd G"
+        },
+        {
+          "details" : "Find Previous",
+          "keyCombo" : "Shift Cmd G"
+        },
+        {
+          "details" : "Emoji & Symbols",
+          "keyCombo" : "🌐"
+        }
+      ]
+    },
+    {
+      "name" : "View",
+      "shortcuts" : [
+        {
+          "details" : "Command Palette…",
+          "keyCombo" : "Cmd K"
+        },
+        {
+          "details" : "Hide Sidebar",
+          "keyCombo" : "Cmd B"
+        },
+        {
+          "details" : "Show Terminal",
+          "keyCombo" : "Cmd J"
+        },
+        {
+          "details" : "Show Changes",
+          "keyCombo" : "Shift Cmd D"
+        },
+        {
+          "details" : "Show Browser",
+          "keyCombo" : "Shift Cmd B"
+        },
+        {
+          "details" : "Show Files",
+          "keyCombo" : "Shift Cmd F"
+        },
+        {
+          "details" : "Show Side Chat",
+          "keyCombo" : "Cmd ;"
+        },
+        {
+          "details" : "Close Pane",
+          "keyCombo" : "Cmd \\"
+        },
+        {
+          "details" : "New Session on the Right",
+          "keyCombo" : "Ctrl Cmd \\"
+        },
+        {
+          "details" : "New Session Below",
+          "keyCombo" : "Ctrl Cmd -"
+        },
+        {
+          "details" : "Focus Next Split View",
+          "keyCombo" : "Ctrl ]"
+        },
+        {
+          "details" : "Focus Previous Split View",
+          "keyCombo" : "Ctrl ["
+        },
+        {
+          "details" : "Close Split View",
+          "keyCombo" : "Ctrl Cmd W"
+        },
+        {
+          "details" : "Actual Size",
+          "keyCombo" : "Cmd 0"
+        },
+        {
+          "details" : "Zoom In",
+          "keyCombo" : "Cmd +"
+        },
+        {
+          "details" : "Zoom Out",
+          "keyCombo" : "Cmd -"
+        },
+        {
+          "details" : "Reload",
+          "keyCombo" : "Cmd R"
+        },
+        {
+          "details" : "Enter Full Screen",
+          "keyCombo" : "Ctrl Cmd F"
+        }
+      ]
+    },
+    {
+      "name" : "Go",
+      "shortcuts" : [
+        {
+          "details" : "Back",
+          "keyCombo" : "Cmd ["
+        },
+        {
+          "details" : "Forward",
+          "keyCombo" : "Cmd ]"
+        },
+        {
+          "details" : "Previous Chat",
+          "keyCombo" : "Shift Cmd ["
+        },
+        {
+          "details" : "Next Chat",
+          "keyCombo" : "Shift Cmd ]"
+        },
+        {
+          "details" : "Search…",
+          "keyCombo" : "Shift Cmd K"
+        }
+      ]
+    },
+    {
+      "name" : "Window",
+      "shortcuts" : [
+        {
+          "details" : "Minimize",
+          "keyCombo" : "Cmd M"
+        },
+        {
+          "details" : "Minimize All",
+          "keyCombo" : "Opt Cmd M"
+        },
+        {
+          "details" : "Fill",
+          "keyCombo" : "Ctrl F"
+        },
+        {
+          "details" : "Center",
+          "keyCombo" : "Ctrl C"
+        },
+        {
+          "details" : "Left",
+          "keyCombo" : "Ctrl leftarrow"
+        },
+        {
+          "details" : "Right",
+          "keyCombo" : "Ctrl rightarrow"
+        },
+        {
+          "details" : "Top",
+          "keyCombo" : "Ctrl uparrow"
+        },
+        {
+          "details" : "Bottom",
+          "keyCombo" : "Ctrl downarrow"
+        },
+        {
+          "details" : "Left & Right",
+          "keyCombo" : "Ctrl Shift leftarrow"
+        },
+        {
+          "details" : "Left & Quarters",
+          "keyCombo" : "Ctrl Opt Shift leftarrow"
+        },
+        {
+          "details" : "Right & Left",
+          "keyCombo" : "Ctrl Shift rightarrow"
+        },
+        {
+          "details" : "Right & Quarters",
+          "keyCombo" : "Ctrl Opt Shift rightarrow"
+        },
+        {
+          "details" : "Top & Bottom",
+          "keyCombo" : "Ctrl Shift uparrow"
+        },
+        {
+          "details" : "Top & Quarters",
+          "keyCombo" : "Ctrl Opt Shift uparrow"
+        },
+        {
+          "details" : "Bottom & Top",
+          "keyCombo" : "Ctrl Shift downarrow"
+        },
+        {
+          "details" : "Bottom & Quarters",
+          "keyCombo" : "Ctrl Opt Shift downarrow"
+        },
+        {
+          "details" : "Return to Previous Size",
+          "keyCombo" : "Ctrl R"
+        }
+      ]
+    },
+    {
+      "name" : "Help",
+      "shortcuts" : [
+        {
+          "details" : "Keyboard Shortcuts",
+          "keyCombo" : "Cmd \/"
+        }
+      ]
+    }
+  ]
+}

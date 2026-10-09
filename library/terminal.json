@@ -1,0 +1,446 @@
+{
+  "categories" : [
+    {
+      "name" : "Terminal",
+      "shortcuts" : [
+        {
+          "details" : "Settings",
+          "keyCombo" : "Cmd ,"
+        },
+        {
+          "details" : "Hide Terminal",
+          "keyCombo" : "Cmd H"
+        },
+        {
+          "details" : "Hide Others",
+          "keyCombo" : "Opt Cmd H"
+        },
+        {
+          "details" : "Quit Terminal",
+          "keyCombo" : "Cmd Q"
+        },
+        {
+          "details" : "Quit and Keep Windows",
+          "keyCombo" : "Opt Cmd Q"
+        }
+      ]
+    },
+    {
+      "name" : "Shell",
+      "shortcuts" : [
+        {
+          "details" : "New Window with Profile - Clear Dark",
+          "keyCombo" : "Cmd N"
+        },
+        {
+          "details" : "New Window with Same Command",
+          "keyCombo" : "Ctrl Cmd N"
+        },
+        {
+          "details" : "New Tab with Profile – Clear Dark",
+          "keyCombo" : "Cmd T"
+        },
+        {
+          "details" : "New Tab with Same Command",
+          "keyCombo" : "Ctrl Cmd T"
+        },
+        {
+          "details" : "New Command…",
+          "keyCombo" : "Shift Cmd N"
+        },
+        {
+          "details" : "New Remote Connection…",
+          "keyCombo" : "Shift Cmd K"
+        },
+        {
+          "details" : "Open…",
+          "keyCombo" : "Cmd O"
+        },
+        {
+          "details" : "Close Window",
+          "keyCombo" : "Cmd W"
+        },
+        {
+          "details" : "Close All",
+          "keyCombo" : "Opt Cmd W"
+        },
+        {
+          "details" : "Export Text As…",
+          "keyCombo" : "Cmd S"
+        },
+        {
+          "details" : "Export Selected Text As…",
+          "keyCombo" : "Shift Cmd S"
+        },
+        {
+          "details" : "Show Inspector",
+          "keyCombo" : "Cmd I"
+        },
+        {
+          "details" : "Edit Title",
+          "keyCombo" : "Shift Cmd I"
+        },
+        {
+          "details" : "Edit Background Color",
+          "keyCombo" : "Opt Cmd I"
+        },
+        {
+          "details" : "Reset",
+          "keyCombo" : "Opt Cmd R"
+        },
+        {
+          "details" : "Hard Reset",
+          "keyCombo" : "Ctrl Opt Cmd R"
+        },
+        {
+          "details" : "Print Selection…",
+          "keyCombo" : "Opt Cmd P"
+        },
+        {
+          "details" : "Print…",
+          "keyCombo" : "Cmd P"
+        }
+      ]
+    },
+    {
+      "name" : "Edit",
+      "shortcuts" : [
+        {
+          "details" : "Undo",
+          "keyCombo" : "Cmd Z"
+        },
+        {
+          "details" : "Redo",
+          "keyCombo" : "Shift Cmd Z"
+        },
+        {
+          "details" : "Cut",
+          "keyCombo" : "Cmd X"
+        },
+        {
+          "details" : "Copy",
+          "keyCombo" : "Cmd C"
+        },
+        {
+          "details" : "Copy Without Background Color",
+          "keyCombo" : "Ctrl Shift Cmd C"
+        },
+        {
+          "details" : "Copy Plain Text",
+          "keyCombo" : "Opt Shift Cmd C"
+        },
+        {
+          "details" : "Paste",
+          "keyCombo" : "Cmd V"
+        },
+        {
+          "details" : "Paste Escaped Text",
+          "keyCombo" : "Ctrl Cmd V"
+        },
+        {
+          "details" : "Paste Selection",
+          "keyCombo" : "Shift Cmd V"
+        },
+        {
+          "details" : "Paste Escaped Selection",
+          "keyCombo" : "Ctrl Shift Cmd V"
+        },
+        {
+          "details" : "Select All",
+          "keyCombo" : "Cmd A"
+        },
+        {
+          "details" : "Select Between Marks",
+          "keyCombo" : "Shift Cmd A"
+        },
+        {
+          "details" : "Mark Line and Send Return",
+          "keyCombo" : "Cmd return"
+        },
+        {
+          "details" : "Send Return Without Marking",
+          "keyCombo" : "Shift Cmd return"
+        },
+        {
+          "details" : "Mark",
+          "keyCombo" : "Cmd U"
+        },
+        {
+          "details" : "Mark as Bookmark",
+          "keyCombo" : "Opt Cmd U"
+        },
+        {
+          "details" : "Unmark",
+          "keyCombo" : "Shift Cmd U"
+        },
+        {
+          "details" : "Jump to Previous Mark",
+          "keyCombo" : "Cmd uparrow"
+        },
+        {
+          "details" : "Select to Previous Mark",
+          "keyCombo" : "Shift Cmd uparrow"
+        },
+        {
+          "details" : "Jump to Next Mark",
+          "keyCombo" : "Cmd downarrow"
+        },
+        {
+          "details" : "Select to Next Mark",
+          "keyCombo" : "Shift Cmd downarrow"
+        },
+        {
+          "details" : "Jump to Previous Bookmark",
+          "keyCombo" : "Opt Cmd uparrow"
+        },
+        {
+          "details" : "Select to Previous Bookmark",
+          "keyCombo" : "Opt Shift Cmd uparrow"
+        },
+        {
+          "details" : "Jump to Next Bookmark",
+          "keyCombo" : "Opt Cmd downarrow"
+        },
+        {
+          "details" : "Select to Next Bookmark",
+          "keyCombo" : "Opt Shift Cmd downarrow"
+        },
+        {
+          "details" : "Clear to Previous Mark",
+          "keyCombo" : "Cmd L"
+        },
+        {
+          "details" : "Clear to Previous Bookmark",
+          "keyCombo" : "Opt Cmd L"
+        },
+        {
+          "details" : "Clear to Start",
+          "keyCombo" : "Cmd K"
+        },
+        {
+          "details" : "Clear Scrollback",
+          "keyCombo" : "Opt Cmd K"
+        },
+        {
+          "details" : "Clear Screen",
+          "keyCombo" : "Ctrl Cmd L"
+        },
+        {
+          "details" : "Fill Screen",
+          "keyCombo" : "Ctrl Opt Cmd L"
+        },
+        {
+          "details" : "Find…",
+          "keyCombo" : "Cmd F"
+        },
+        {
+          "details" : "Find Next",
+          "keyCombo" : "Cmd G"
+        },
+        {
+          "details" : "Find Previous",
+          "keyCombo" : "Shift Cmd G"
+        },
+        {
+          "details" : "Hide Find Bar",
+          "keyCombo" : "Shift Cmd F"
+        },
+        {
+          "details" : "Use Selection for Find",
+          "keyCombo" : "Cmd E"
+        },
+        {
+          "details" : "Jump to Selection",
+          "keyCombo" : "Cmd J"
+        },
+        {
+          "details" : "Show Colors",
+          "keyCombo" : "Shift Cmd C"
+        },
+        {
+          "details" : "Use Option as Meta Key",
+          "keyCombo" : "Opt Cmd O"
+        },
+        {
+          "details" : "Num Lock",
+          "keyCombo" : "Cmd ⌧"
+        },
+        {
+          "details" : "Emoji & Symbols",
+          "keyCombo" : "🌐"
+        }
+      ]
+    },
+    {
+      "name" : "View",
+      "shortcuts" : [
+        {
+          "details" : "Show All Tabs",
+          "keyCombo" : "Shift Cmd \\"
+        },
+        {
+          "details" : "Show Tab Bar",
+          "keyCombo" : "Shift Cmd T"
+        },
+        {
+          "details" : "Show Alternate Screen",
+          "keyCombo" : "Shift Cmd pagedown"
+        },
+        {
+          "details" : "Hide Alternate Screen",
+          "keyCombo" : "Shift Cmd pageup"
+        },
+        {
+          "details" : "Allow Mouse Reporting",
+          "keyCombo" : "Cmd R"
+        },
+        {
+          "details" : "Split Pane",
+          "keyCombo" : "Cmd D"
+        },
+        {
+          "details" : "Close Split Pane",
+          "keyCombo" : "Shift Cmd D"
+        },
+        {
+          "details" : "Default Font Size",
+          "keyCombo" : "Cmd 0"
+        },
+        {
+          "details" : "Bigger",
+          "keyCombo" : "Cmd +"
+        },
+        {
+          "details" : "Smaller",
+          "keyCombo" : "Cmd -"
+        },
+        {
+          "details" : "Scroll to Top",
+          "keyCombo" : "Cmd home"
+        },
+        {
+          "details" : "Scroll to Bottom",
+          "keyCombo" : "Cmd end"
+        },
+        {
+          "details" : "Page Up",
+          "keyCombo" : "Cmd pageup"
+        },
+        {
+          "details" : "Page Down",
+          "keyCombo" : "Cmd pagedown"
+        },
+        {
+          "details" : "Line Up",
+          "keyCombo" : "Opt Cmd pageup"
+        },
+        {
+          "details" : "Line Down",
+          "keyCombo" : "Opt Cmd pagedown"
+        },
+        {
+          "details" : "Enter Full Screen",
+          "keyCombo" : "F"
+        }
+      ]
+    },
+    {
+      "name" : "Window",
+      "shortcuts" : [
+        {
+          "details" : "Minimize",
+          "keyCombo" : "Cmd M"
+        },
+        {
+          "details" : "Minimize All",
+          "keyCombo" : "Opt Cmd M"
+        },
+        {
+          "details" : "Fill",
+          "keyCombo" : "Ctrl F"
+        },
+        {
+          "details" : "Center",
+          "keyCombo" : "Ctrl C"
+        },
+        {
+          "details" : "Left",
+          "keyCombo" : "Ctrl leftarrow"
+        },
+        {
+          "details" : "Right",
+          "keyCombo" : "Ctrl rightarrow"
+        },
+        {
+          "details" : "Top",
+          "keyCombo" : "Ctrl uparrow"
+        },
+        {
+          "details" : "Bottom",
+          "keyCombo" : "Ctrl downarrow"
+        },
+        {
+          "details" : "Left & Right",
+          "keyCombo" : "Ctrl Shift leftarrow"
+        },
+        {
+          "details" : "Left & Quarters",
+          "keyCombo" : "Ctrl Opt Shift leftarrow"
+        },
+        {
+          "details" : "Right & Left",
+          "keyCombo" : "Ctrl Shift rightarrow"
+        },
+        {
+          "details" : "Right & Quarters",
+          "keyCombo" : "Ctrl Opt Shift rightarrow"
+        },
+        {
+          "details" : "Top & Bottom",
+          "keyCombo" : "Ctrl Shift uparrow"
+        },
+        {
+          "details" : "Top & Quarters",
+          "keyCombo" : "Ctrl Opt Shift uparrow"
+        },
+        {
+          "details" : "Bottom & Top",
+          "keyCombo" : "Ctrl Shift downarrow"
+        },
+        {
+          "details" : "Bottom & Quarters",
+          "keyCombo" : "Ctrl Opt Shift downarrow"
+        },
+        {
+          "details" : "Return to Previous Size",
+          "keyCombo" : "Ctrl R"
+        },
+        {
+          "details" : "Cycle Through Windows",
+          "keyCombo" : "Cmd `"
+        },
+        {
+          "details" : "Show Previous Tab",
+          "keyCombo" : "Ctrl Shift tab"
+        },
+        {
+          "details" : "Show Next Tab",
+          "keyCombo" : "Ctrl tab"
+        }
+      ]
+    },
+    {
+      "name" : "Help",
+      "shortcuts" : [
+        {
+          "details" : "Open man Page for Selection",
+          "keyCombo" : "Ctrl Cmd ?"
+        },
+        {
+          "details" : "Search man Page Index for Selection",
+          "keyCombo" : "Ctrl Opt Cmd \/"
+        }
+      ]
+    }
+  ]
+}

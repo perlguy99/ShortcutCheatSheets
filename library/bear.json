@@ -1,0 +1,556 @@
+{
+  "categories" : [
+    {
+      "name" : "Bear",
+      "shortcuts" : [
+        {
+          "details" : "Settings…",
+          "keyCombo" : "Cmd ,"
+        },
+        {
+          "details" : "Empty Trash",
+          "keyCombo" : "Shift Cmd delete"
+        },
+        {
+          "details" : "Hide Bear",
+          "keyCombo" : "Cmd H"
+        },
+        {
+          "details" : "Hide Others",
+          "keyCombo" : "Opt Cmd H"
+        },
+        {
+          "details" : "Quit Bear",
+          "keyCombo" : "Cmd Q"
+        },
+        {
+          "details" : "Quit and Close All Windows",
+          "keyCombo" : "Opt Cmd Q"
+        }
+      ]
+    },
+    {
+      "name" : "File",
+      "shortcuts" : [
+        {
+          "details" : "New Note",
+          "keyCombo" : "Cmd N"
+        },
+        {
+          "details" : "New Note In External Window",
+          "keyCombo" : "Opt Cmd N"
+        },
+        {
+          "details" : "Close",
+          "keyCombo" : "Cmd W"
+        },
+        {
+          "details" : "Close All",
+          "keyCombo" : "Opt Cmd W"
+        },
+        {
+          "details" : "Import Notes...",
+          "keyCombo" : "Shift Cmd O"
+        },
+        {
+          "details" : "Export Notes...",
+          "keyCombo" : "Shift Cmd S"
+        },
+        {
+          "details" : "Print…",
+          "keyCombo" : "Cmd P"
+        }
+      ]
+    },
+    {
+      "name" : "Edit",
+      "shortcuts" : [
+        {
+          "details" : "Undo",
+          "keyCombo" : "Cmd Z"
+        },
+        {
+          "details" : "Redo",
+          "keyCombo" : "Shift Cmd Z"
+        },
+        {
+          "details" : "Cut",
+          "keyCombo" : "Cmd X"
+        },
+        {
+          "details" : "Copy",
+          "keyCombo" : "Cmd C"
+        },
+        {
+          "details" : "Paste",
+          "keyCombo" : "Cmd V"
+        },
+        {
+          "details" : "Rich Text",
+          "keyCombo" : "Shift Cmd C"
+        },
+        {
+          "details" : "Plain Text",
+          "keyCombo" : "Opt Shift Cmd V"
+        },
+        {
+          "details" : "Shift Right",
+          "keyCombo" : "Opt Cmd rightarrow"
+        },
+        {
+          "details" : "Shift Left",
+          "keyCombo" : "Opt Cmd leftarrow"
+        },
+        {
+          "details" : "Move Up",
+          "keyCombo" : "Opt Cmd uparrow"
+        },
+        {
+          "details" : "Move Down",
+          "keyCombo" : "Opt Cmd downarrow"
+        },
+        {
+          "details" : "Delete",
+          "keyCombo" : "Cmd delete"
+        },
+        {
+          "details" : "Restore",
+          "keyCombo" : "Shift Cmd R"
+        },
+        {
+          "details" : "Select All",
+          "keyCombo" : "Cmd A"
+        },
+        {
+          "details" : "End Editing",
+          "keyCombo" : "Cmd return"
+        },
+        {
+          "details" : "Note From Selection",
+          "keyCombo" : "Shift Cmd N"
+        },
+        {
+          "details" : "Note List Search...",
+          "keyCombo" : "Shift Cmd F"
+        },
+        {
+          "details" : "Find…",
+          "keyCombo" : "Cmd F"
+        },
+        {
+          "details" : "Find and Replace…",
+          "keyCombo" : "Opt Cmd F"
+        },
+        {
+          "details" : "Find Next",
+          "keyCombo" : "Cmd G"
+        },
+        {
+          "details" : "Find Previous",
+          "keyCombo" : "Shift Cmd G"
+        },
+        {
+          "details" : "Use Selection for Find",
+          "keyCombo" : "Cmd E"
+        },
+        {
+          "details" : "Jump to Selection",
+          "keyCombo" : "Cmd J"
+        },
+        {
+          "details" : "Show Spelling and Grammar",
+          "keyCombo" : "Cmd :"
+        },
+        {
+          "details" : "Check Document Now",
+          "keyCombo" : "Cmd ;"
+        },
+        {
+          "details" : "Emoji & Symbols",
+          "keyCombo" : "🌐"
+        }
+      ]
+    },
+    {
+      "name" : "View",
+      "shortcuts" : [
+        {
+          "details" : "Show All Notes",
+          "keyCombo" : "Opt Cmd 1"
+        },
+        {
+          "details" : "Show Untagged",
+          "keyCombo" : "Opt Cmd 2"
+        },
+        {
+          "details" : "Show Todo",
+          "keyCombo" : "Opt Cmd 3"
+        },
+        {
+          "details" : "Show Today",
+          "keyCombo" : "Opt Cmd 4"
+        },
+        {
+          "details" : "Show Locked",
+          "keyCombo" : "Opt Cmd 5"
+        },
+        {
+          "details" : "Show Pinned",
+          "keyCombo" : "Opt Cmd 6"
+        },
+        {
+          "details" : "Show Archive",
+          "keyCombo" : "Opt Cmd 9"
+        },
+        {
+          "details" : "Show Trash",
+          "keyCombo" : "Opt Cmd 0"
+        },
+        {
+          "details" : "Dismiss Workspace",
+          "keyCombo" : "Ctrl Cmd 0"
+        },
+        {
+          "details" : "Quick Open",
+          "keyCombo" : "Cmd O"
+        },
+        {
+          "details" : "Tag Quick Open",
+          "keyCombo" : "Opt Cmd O"
+        },
+        {
+          "details" : "Zoom In",
+          "keyCombo" : "Cmd +"
+        },
+        {
+          "details" : "Zoom Out",
+          "keyCombo" : "Cmd -"
+        },
+        {
+          "details" : "Actual Size",
+          "keyCombo" : "Cmd 0"
+        },
+        {
+          "details" : "Back",
+          "keyCombo" : "Cmd ["
+        },
+        {
+          "details" : "Forward",
+          "keyCombo" : "Cmd ]"
+        },
+        {
+          "details" : "Open Link",
+          "keyCombo" : "Shift Cmd K"
+        },
+        {
+          "details" : "Open Link In New Window",
+          "keyCombo" : "Opt Shift Cmd K"
+        },
+        {
+          "details" : "Show Editor Only",
+          "keyCombo" : "Ctrl 1"
+        },
+        {
+          "details" : "Show Notes and Editor",
+          "keyCombo" : "Ctrl 2"
+        },
+        {
+          "details" : "Show Tags, Notes and Editor",
+          "keyCombo" : "Ctrl 3"
+        },
+        {
+          "details" : "Toggle Statistics Panel",
+          "keyCombo" : "Shift Cmd I"
+        },
+        {
+          "details" : "Toggle Table of Contents",
+          "keyCombo" : "Shift Cmd A"
+        },
+        {
+          "details" : "Toggle Backlinks",
+          "keyCombo" : "Shift Cmd B"
+        },
+        {
+          "details" : "Toggle Word Count",
+          "keyCombo" : "Shift Cmd W"
+        },
+        {
+          "details" : "Toggle Styles Bar",
+          "keyCombo" : "Shift Cmd Y"
+        },
+        {
+          "details" : "Enter Full Screen",
+          "keyCombo" : "F"
+        }
+      ]
+    },
+    {
+      "name" : "Format",
+      "shortcuts" : [
+        {
+          "details" : "Heading 1",
+          "keyCombo" : "Cmd 1"
+        },
+        {
+          "details" : "Heading 2",
+          "keyCombo" : "Cmd 2"
+        },
+        {
+          "details" : "Heading 3",
+          "keyCombo" : "Cmd 3"
+        },
+        {
+          "details" : "Heading 4",
+          "keyCombo" : "Cmd 4"
+        },
+        {
+          "details" : "Heading 5",
+          "keyCombo" : "Cmd 5"
+        },
+        {
+          "details" : "Heading 6",
+          "keyCombo" : "Cmd 6"
+        },
+        {
+          "details" : "Bold",
+          "keyCombo" : "Cmd B"
+        },
+        {
+          "details" : "Italic",
+          "keyCombo" : "Cmd I"
+        },
+        {
+          "details" : "Underline",
+          "keyCombo" : "Cmd U"
+        },
+        {
+          "details" : "Strikethrough",
+          "keyCombo" : "Shift Cmd U"
+        },
+        {
+          "details" : "Default",
+          "keyCombo" : "Shift Cmd M"
+        },
+        {
+          "details" : "Link",
+          "keyCombo" : "Cmd K"
+        },
+        {
+          "details" : "Wiki Link",
+          "keyCombo" : "Cmd D"
+        },
+        {
+          "details" : "Footnote",
+          "keyCombo" : "Shift Cmd E"
+        },
+        {
+          "details" : "Code",
+          "keyCombo" : "Opt Cmd C"
+        },
+        {
+          "details" : "Code Block",
+          "keyCombo" : "Ctrl Cmd C"
+        },
+        {
+          "details" : "List",
+          "keyCombo" : "Cmd L"
+        },
+        {
+          "details" : "Ordered List",
+          "keyCombo" : "Shift Cmd L"
+        },
+        {
+          "details" : "Quote",
+          "keyCombo" : "Shift Cmd T"
+        },
+        {
+          "details" : "Todo",
+          "keyCombo" : "Cmd T"
+        },
+        {
+          "details" : "Toggle",
+          "keyCombo" : "Cmd ."
+        },
+        {
+          "details" : "Line Separator",
+          "keyCombo" : "Opt Cmd S"
+        },
+        {
+          "details" : "Table",
+          "keyCombo" : "Opt Cmd T"
+        },
+        {
+          "details" : "Add Row",
+          "keyCombo" : "Ctrl Cmd downarrow"
+        },
+        {
+          "details" : "Add Row Above",
+          "keyCombo" : "Ctrl Cmd uparrow"
+        },
+        {
+          "details" : "Add Column",
+          "keyCombo" : "Ctrl Cmd rightarrow"
+        },
+        {
+          "details" : "Add Column Before",
+          "keyCombo" : "Ctrl Cmd leftarrow"
+        },
+        {
+          "details" : "Delete Row",
+          "keyCombo" : "Ctrl Cmd delete"
+        },
+        {
+          "details" : "Delete Column",
+          "keyCombo" : "Ctrl Shift Cmd delete"
+        },
+        {
+          "details" : "File",
+          "keyCombo" : "Shift Cmd V"
+        },
+        {
+          "details" : "Date",
+          "keyCombo" : "Shift Cmd 8"
+        },
+        {
+          "details" : "Date (ISO 8601)",
+          "keyCombo" : "Opt Shift Cmd 8"
+        },
+        {
+          "details" : "Short Date",
+          "keyCombo" : "Shift Cmd 9"
+        },
+        {
+          "details" : "Short Date (ISO 8601)",
+          "keyCombo" : "Opt Shift Cmd 9"
+        },
+        {
+          "details" : "Date and Time",
+          "keyCombo" : "Shift Cmd 7"
+        },
+        {
+          "details" : "Date and Time (ISO 8601)",
+          "keyCombo" : "Opt Shift Cmd 7"
+        },
+        {
+          "details" : "Time Only",
+          "keyCombo" : "Shift Cmd 0"
+        },
+        {
+          "details" : "Time Only (ISO 8601)",
+          "keyCombo" : "Opt Shift Cmd 0"
+        },
+        {
+          "details" : "Toggle Folding",
+          "keyCombo" : "Cmd '"
+        }
+      ]
+    },
+    {
+      "name" : "Note",
+      "shortcuts" : [
+        {
+          "details" : "Pin To Top",
+          "keyCombo" : "Shift Cmd P"
+        },
+        {
+          "details" : "Copy Link",
+          "keyCombo" : "Opt Shift Cmd L"
+        },
+        {
+          "details" : "Copy Identifier",
+          "keyCombo" : "Opt Shift Cmd I"
+        },
+        {
+          "details" : "Preview in Marked",
+          "keyCombo" : "Opt Cmd Y"
+        }
+      ]
+    },
+    {
+      "name" : "Window",
+      "shortcuts" : [
+        {
+          "details" : "Minimize",
+          "keyCombo" : "Cmd M"
+        },
+        {
+          "details" : "Minimize All",
+          "keyCombo" : "Opt Cmd M"
+        },
+        {
+          "details" : "Fill",
+          "keyCombo" : "Ctrl F"
+        },
+        {
+          "details" : "Center",
+          "keyCombo" : "Ctrl C"
+        },
+        {
+          "details" : "Left",
+          "keyCombo" : "Ctrl leftarrow"
+        },
+        {
+          "details" : "Right",
+          "keyCombo" : "Ctrl rightarrow"
+        },
+        {
+          "details" : "Top",
+          "keyCombo" : "Ctrl uparrow"
+        },
+        {
+          "details" : "Bottom",
+          "keyCombo" : "Ctrl downarrow"
+        },
+        {
+          "details" : "Left & Right",
+          "keyCombo" : "Ctrl Shift leftarrow"
+        },
+        {
+          "details" : "Left & Quarters",
+          "keyCombo" : "Ctrl Opt Shift leftarrow"
+        },
+        {
+          "details" : "Right & Left",
+          "keyCombo" : "Ctrl Shift rightarrow"
+        },
+        {
+          "details" : "Right & Quarters",
+          "keyCombo" : "Ctrl Opt Shift rightarrow"
+        },
+        {
+          "details" : "Top & Bottom",
+          "keyCombo" : "Ctrl Shift uparrow"
+        },
+        {
+          "details" : "Top & Quarters",
+          "keyCombo" : "Ctrl Opt Shift uparrow"
+        },
+        {
+          "details" : "Bottom & Top",
+          "keyCombo" : "Ctrl Shift downarrow"
+        },
+        {
+          "details" : "Bottom & Quarters",
+          "keyCombo" : "Ctrl Opt Shift downarrow"
+        },
+        {
+          "details" : "Return to Previous Size",
+          "keyCombo" : "Ctrl R"
+        },
+        {
+          "details" : "Main Window",
+          "keyCombo" : "Cmd \\"
+        }
+      ]
+    },
+    {
+      "name" : "Help",
+      "shortcuts" : [
+        {
+          "details" : "Request Help",
+          "keyCombo" : "Cmd ?"
+        }
+      ]
+    }
+  ]
+}

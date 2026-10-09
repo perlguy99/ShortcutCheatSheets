@@ -1,0 +1,520 @@
+{
+  "categories" : [
+    {
+      "name" : "Mail",
+      "shortcuts" : [
+        {
+          "details" : "Settings…",
+          "keyCombo" : "Cmd ,"
+        },
+        {
+          "details" : "Hide Mail",
+          "keyCombo" : "Cmd H"
+        },
+        {
+          "details" : "Hide Others",
+          "keyCombo" : "Opt Cmd H"
+        },
+        {
+          "details" : "Quit Mail",
+          "keyCombo" : "Cmd Q"
+        },
+        {
+          "details" : "Quit and Keep Windows",
+          "keyCombo" : "Opt Cmd Q"
+        }
+      ]
+    },
+    {
+      "name" : "File",
+      "shortcuts" : [
+        {
+          "details" : "New Message",
+          "keyCombo" : "Cmd N"
+        },
+        {
+          "details" : "New Viewer Window",
+          "keyCombo" : "Opt Cmd N"
+        },
+        {
+          "details" : "New Viewer Tab",
+          "keyCombo" : "Opt Shift Cmd N"
+        },
+        {
+          "details" : "Open Messages",
+          "keyCombo" : "Cmd O"
+        },
+        {
+          "details" : "Close",
+          "keyCombo" : "Cmd W"
+        },
+        {
+          "details" : "Close All",
+          "keyCombo" : "Opt Cmd W"
+        },
+        {
+          "details" : "Save",
+          "keyCombo" : "Cmd S"
+        },
+        {
+          "details" : "Save As…",
+          "keyCombo" : "Shift Cmd S"
+        },
+        {
+          "details" : "Attach Files…",
+          "keyCombo" : "Shift Cmd A"
+        },
+        {
+          "details" : "Quick Look Attachments…",
+          "keyCombo" : "Cmd Y"
+        },
+        {
+          "details" : "Print…",
+          "keyCombo" : "Cmd P"
+        }
+      ]
+    },
+    {
+      "name" : "Edit",
+      "shortcuts" : [
+        {
+          "details" : "Undo",
+          "keyCombo" : "Cmd Z"
+        },
+        {
+          "details" : "Redo",
+          "keyCombo" : "Shift Cmd Z"
+        },
+        {
+          "details" : "Cut",
+          "keyCombo" : "Cmd X"
+        },
+        {
+          "details" : "Copy",
+          "keyCombo" : "Cmd C"
+        },
+        {
+          "details" : "Paste",
+          "keyCombo" : "Cmd V"
+        },
+        {
+          "details" : "Delete",
+          "keyCombo" : "Cmd delete"
+        },
+        {
+          "details" : "Select All",
+          "keyCombo" : "Cmd A"
+        },
+        {
+          "details" : "Complete",
+          "keyCombo" : "Opt esc"
+        },
+        {
+          "details" : "Paste as Quotation",
+          "keyCombo" : "Shift Cmd V"
+        },
+        {
+          "details" : "Paste and Match Style",
+          "keyCombo" : "Opt Shift Cmd V"
+        },
+        {
+          "details" : "Append Selected Messages",
+          "keyCombo" : "Opt Cmd I"
+        },
+        {
+          "details" : "Add Link…",
+          "keyCombo" : "Cmd K"
+        },
+        {
+          "details" : "Remove Link",
+          "keyCombo" : "Opt Cmd K"
+        },
+        {
+          "details" : "Mailbox Search",
+          "keyCombo" : "Opt Cmd F"
+        },
+        {
+          "details" : "Find…",
+          "keyCombo" : "Cmd F"
+        },
+        {
+          "details" : "Find Next",
+          "keyCombo" : "Cmd G"
+        },
+        {
+          "details" : "Find Previous",
+          "keyCombo" : "Shift Cmd G"
+        },
+        {
+          "details" : "Use Selection for Find",
+          "keyCombo" : "Cmd E"
+        },
+        {
+          "details" : "Jump to Selection",
+          "keyCombo" : "Cmd J"
+        },
+        {
+          "details" : "Jump to Top",
+          "keyCombo" : "Ctrl Cmd T"
+        },
+        {
+          "details" : "Show Spelling and Grammar",
+          "keyCombo" : "Cmd :"
+        },
+        {
+          "details" : "Check Document Now",
+          "keyCombo" : "Cmd ;"
+        },
+        {
+          "details" : "Emoji & Symbols",
+          "keyCombo" : "🌐"
+        }
+      ]
+    },
+    {
+      "name" : "View",
+      "shortcuts" : [
+        {
+          "details" : "Enable Message Filter",
+          "keyCombo" : "Cmd L"
+        },
+        {
+          "details" : "Bcc Address Field",
+          "keyCombo" : "Opt Cmd B"
+        },
+        {
+          "details" : "Reply-To Address Field",
+          "keyCombo" : "Opt Cmd R"
+        },
+        {
+          "details" : "All Headers",
+          "keyCombo" : "Shift Cmd H"
+        },
+        {
+          "details" : "Raw Source",
+          "keyCombo" : "Opt Cmd U"
+        },
+        {
+          "details" : "Hide Sidebar",
+          "keyCombo" : "Ctrl Cmd S"
+        },
+        {
+          "details" : "Hide Toolbar",
+          "keyCombo" : "Opt Cmd T"
+        },
+        {
+          "details" : "Show Favorites Bar",
+          "keyCombo" : "Opt Shift Cmd H"
+        },
+        {
+          "details" : "Enter Full Screen",
+          "keyCombo" : "F"
+        }
+      ]
+    },
+    {
+      "name" : "Mailbox",
+      "shortcuts" : [
+        {
+          "details" : "Get All New Mail",
+          "keyCombo" : "Shift Cmd N"
+        },
+        {
+          "details" : "In All Accounts…",
+          "keyCombo" : "Shift Cmd delete"
+        },
+        {
+          "details" : "In All Accounts",
+          "keyCombo" : "Opt Shift Cmd delete"
+        },
+        {
+          "details" : "Erase Junk Mail",
+          "keyCombo" : "Opt Cmd J"
+        },
+        {
+          "details" : "All Inboxes",
+          "keyCombo" : "Cmd 1"
+        },
+        {
+          "details" : "Flagged",
+          "keyCombo" : "Cmd 2"
+        },
+        {
+          "details" : "All Drafts",
+          "keyCombo" : "Cmd 3"
+        },
+        {
+          "details" : "All Sent",
+          "keyCombo" : "Cmd 4"
+        },
+        {
+          "details" : "All Inboxes",
+          "keyCombo" : "Ctrl Cmd 1"
+        },
+        {
+          "details" : "Flagged",
+          "keyCombo" : "Ctrl Cmd 2"
+        },
+        {
+          "details" : "All Drafts",
+          "keyCombo" : "Ctrl Cmd 3"
+        },
+        {
+          "details" : "All Sent",
+          "keyCombo" : "Ctrl Cmd 4"
+        },
+        {
+          "details" : "Primary",
+          "keyCombo" : "Opt Cmd 1"
+        },
+        {
+          "details" : "Transactions",
+          "keyCombo" : "Opt Cmd 2"
+        },
+        {
+          "details" : "Updates",
+          "keyCombo" : "Opt Cmd 3"
+        },
+        {
+          "details" : "Promotions",
+          "keyCombo" : "Opt Cmd 4"
+        },
+        {
+          "details" : "All Mail",
+          "keyCombo" : "Opt Cmd 5"
+        },
+        {
+          "details" : "Go to Previous Mailbox",
+          "keyCombo" : "Ctrl Cmd ["
+        },
+        {
+          "details" : "Go to Previous Unread Mailbox",
+          "keyCombo" : "Ctrl Opt Cmd ["
+        },
+        {
+          "details" : "Go to Next Mailbox",
+          "keyCombo" : "Ctrl Cmd ]"
+        },
+        {
+          "details" : "Go to Next Unread Mailbox",
+          "keyCombo" : "Ctrl Opt Cmd ]"
+        }
+      ]
+    },
+    {
+      "name" : "Message",
+      "shortcuts" : [
+        {
+          "details" : "Send Again",
+          "keyCombo" : "Shift Cmd D"
+        },
+        {
+          "details" : "Reply",
+          "keyCombo" : "Cmd R"
+        },
+        {
+          "details" : "Reply All",
+          "keyCombo" : "Shift Cmd R"
+        },
+        {
+          "details" : "Forward",
+          "keyCombo" : "Shift Cmd F"
+        },
+        {
+          "details" : "Redirect",
+          "keyCombo" : "Shift Cmd E"
+        },
+        {
+          "details" : "Mark as Unread",
+          "keyCombo" : "Shift Cmd U"
+        },
+        {
+          "details" : "Move to Junk",
+          "keyCombo" : "Shift Cmd J"
+        },
+        {
+          "details" : "Unmute",
+          "keyCombo" : "Ctrl Shift M"
+        },
+        {
+          "details" : "Toggle Flag",
+          "keyCombo" : "Shift Cmd L"
+        },
+        {
+          "details" : "Archive",
+          "keyCombo" : "Ctrl Cmd A"
+        },
+        {
+          "details" : "Move to Predicted Mailbox",
+          "keyCombo" : "Ctrl Cmd M"
+        },
+        {
+          "details" : "Apply Rules",
+          "keyCombo" : "Opt Cmd L"
+        }
+      ]
+    },
+    {
+      "name" : "Format",
+      "shortcuts" : [
+        {
+          "details" : "Show Fonts",
+          "keyCombo" : "Cmd T"
+        },
+        {
+          "details" : "Show Colors",
+          "keyCombo" : "Shift Cmd C"
+        },
+        {
+          "details" : "Bold",
+          "keyCombo" : "Cmd B"
+        },
+        {
+          "details" : "Italic",
+          "keyCombo" : "Cmd I"
+        },
+        {
+          "details" : "Underline",
+          "keyCombo" : "Cmd U"
+        },
+        {
+          "details" : "Bigger",
+          "keyCombo" : "Cmd +"
+        },
+        {
+          "details" : "Smaller",
+          "keyCombo" : "Cmd -"
+        },
+        {
+          "details" : "Copy Style",
+          "keyCombo" : "Opt Cmd C"
+        },
+        {
+          "details" : "Paste Style",
+          "keyCombo" : "Opt Cmd V"
+        },
+        {
+          "details" : "Align Left",
+          "keyCombo" : "Cmd {"
+        },
+        {
+          "details" : "Center",
+          "keyCombo" : "Cmd |"
+        },
+        {
+          "details" : "Align Right",
+          "keyCombo" : "Cmd }"
+        },
+        {
+          "details" : "Increase",
+          "keyCombo" : "Cmd ]"
+        },
+        {
+          "details" : "Decrease",
+          "keyCombo" : "Cmd ["
+        },
+        {
+          "details" : "Increase",
+          "keyCombo" : "Cmd '"
+        },
+        {
+          "details" : "Decrease",
+          "keyCombo" : "Opt Cmd '"
+        },
+        {
+          "details" : "Make Rich Text",
+          "keyCombo" : "Shift Cmd T"
+        }
+      ]
+    },
+    {
+      "name" : "Window",
+      "shortcuts" : [
+        {
+          "details" : "Minimize",
+          "keyCombo" : "Cmd M"
+        },
+        {
+          "details" : "Minimize All",
+          "keyCombo" : "Opt Cmd M"
+        },
+        {
+          "details" : "Fill",
+          "keyCombo" : "Ctrl F"
+        },
+        {
+          "details" : "Center",
+          "keyCombo" : "Ctrl C"
+        },
+        {
+          "details" : "Left",
+          "keyCombo" : "Ctrl leftarrow"
+        },
+        {
+          "details" : "Right",
+          "keyCombo" : "Ctrl rightarrow"
+        },
+        {
+          "details" : "Top",
+          "keyCombo" : "Ctrl uparrow"
+        },
+        {
+          "details" : "Bottom",
+          "keyCombo" : "Ctrl downarrow"
+        },
+        {
+          "details" : "Left & Right",
+          "keyCombo" : "Ctrl Shift leftarrow"
+        },
+        {
+          "details" : "Left & Quarters",
+          "keyCombo" : "Ctrl Opt Shift leftarrow"
+        },
+        {
+          "details" : "Right & Left",
+          "keyCombo" : "Ctrl Shift rightarrow"
+        },
+        {
+          "details" : "Right & Quarters",
+          "keyCombo" : "Ctrl Opt Shift rightarrow"
+        },
+        {
+          "details" : "Top & Bottom",
+          "keyCombo" : "Ctrl Shift uparrow"
+        },
+        {
+          "details" : "Top & Quarters",
+          "keyCombo" : "Ctrl Opt Shift uparrow"
+        },
+        {
+          "details" : "Bottom & Top",
+          "keyCombo" : "Ctrl Shift downarrow"
+        },
+        {
+          "details" : "Bottom & Quarters",
+          "keyCombo" : "Ctrl Opt Shift downarrow"
+        },
+        {
+          "details" : "Return to Previous Size",
+          "keyCombo" : "Ctrl R"
+        },
+        {
+          "details" : "Show Previous Tab",
+          "keyCombo" : "Ctrl Shift tab"
+        },
+        {
+          "details" : "Show Next Tab",
+          "keyCombo" : "Ctrl tab"
+        },
+        {
+          "details" : "Message Viewer",
+          "keyCombo" : "Cmd 0"
+        },
+        {
+          "details" : "Activity",
+          "keyCombo" : "Opt Cmd 0"
+        }
+      ]
+    }
+  ]
+}

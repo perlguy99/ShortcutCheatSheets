@@ -1,0 +1,55 @@
+{
+  "version": 1,
+  "collections": [
+    {
+      "id": "bbedit",
+      "name": "BBEdit Shortcuts",
+      "file": "bbedit.json"
+    },
+    {
+      "id": "bear",
+      "name": "Bear Shortcuts",
+      "file": "bear.json"
+    },
+    {
+      "id": "claude",
+      "name": "Claude Shortcuts",
+      "file": "claude.json"
+    },
+    {
+      "id": "finder",
+      "name": "Finder Shortcuts",
+      "file": "finder.json"
+    },
+    {
+      "id": "kickstart",
+      "name": "Kickstart Shortcuts",
+      "file": "kickstart.json"
+    },
+    {
+      "id": "mail",
+      "name": "Mail Shortcuts",
+      "file": "mail.json"
+    },
+    {
+      "id": "obsidian",
+      "name": "Obsidian Shortcuts",
+      "file": "obsidian.json"
+    },
+    {
+      "id": "safari",
+      "name": "Safari Shortcuts",
+      "file": "safari.json"
+    },
+    {
+      "id": "terminal",
+      "name": "Terminal Shortcuts",
+      "file": "terminal.json"
+    },
+    {
+      "id": "xcode",
+      "name": "Xcode Shortcuts",
+      "file": "xcode.json"
+    }
+  ]
+}

@@ -1,0 +1,662 @@
+{
+  "categories" : [
+    {
+      "name" : "BBEdit",
+      "shortcuts" : [
+        {
+          "details" : "Settings…",
+          "keyCombo" : "Cmd ,"
+        },
+        {
+          "details" : "Hide BBEdit",
+          "keyCombo" : "Cmd H"
+        },
+        {
+          "details" : "Hide Others",
+          "keyCombo" : "Opt Cmd H"
+        },
+        {
+          "details" : "Quit BBEdit",
+          "keyCombo" : "Cmd Q"
+        }
+      ]
+    },
+    {
+      "name" : "File",
+      "shortcuts" : [
+        {
+          "details" : "Text Document",
+          "keyCombo" : "Cmd N"
+        },
+        {
+          "details" : "Text Window",
+          "keyCombo" : "Shift Cmd N"
+        },
+        {
+          "details" : "Text File…",
+          "keyCombo" : "Ctrl Shift Cmd N"
+        },
+        {
+          "details" : "HTML Document…",
+          "keyCombo" : "Ctrl Cmd N"
+        },
+        {
+          "details" : "Note",
+          "keyCombo" : "Ctrl Opt Cmd N"
+        },
+        {
+          "details" : "Disk Browser…",
+          "keyCombo" : "Opt Cmd N"
+        },
+        {
+          "details" : "Open…",
+          "keyCombo" : "Cmd O"
+        },
+        {
+          "details" : "Open from FTP\/SFTP Server…",
+          "keyCombo" : "Ctrl Cmd O"
+        },
+        {
+          "details" : "Open File by Name…",
+          "keyCombo" : "Cmd D"
+        },
+        {
+          "details" : "Reveal Selection",
+          "keyCombo" : "Opt Cmd D"
+        },
+        {
+          "details" : "Open Counterpart",
+          "keyCombo" : "Opt Cmd uparrow"
+        },
+        {
+          "details" : "Close Window",
+          "keyCombo" : "Shift Cmd W"
+        },
+        {
+          "details" : "Close All Windows",
+          "keyCombo" : "Opt Shift Cmd W"
+        },
+        {
+          "details" : "Close Document",
+          "keyCombo" : "Cmd W"
+        },
+        {
+          "details" : "Close All Documents",
+          "keyCombo" : "Opt Cmd W"
+        },
+        {
+          "details" : "Close All in Project",
+          "keyCombo" : "Ctrl Cmd W"
+        },
+        {
+          "details" : "Save",
+          "keyCombo" : "Cmd S"
+        },
+        {
+          "details" : "Save All",
+          "keyCombo" : "Opt Cmd S"
+        },
+        {
+          "details" : "Save All in Window",
+          "keyCombo" : "Opt Shift Cmd S"
+        },
+        {
+          "details" : "Save As…",
+          "keyCombo" : "Shift Cmd S"
+        },
+        {
+          "details" : "Save to FTP\/SFTP Server…",
+          "keyCombo" : "Ctrl Cmd S"
+        },
+        {
+          "details" : "Save a Copy to FTP\/SFTP Server…",
+          "keyCombo" : "Ctrl Opt Cmd S"
+        },
+        {
+          "details" : "Print…",
+          "keyCombo" : "Cmd P"
+        },
+        {
+          "details" : "Print One Copy",
+          "keyCombo" : "Opt Shift Cmd P"
+        }
+      ]
+    },
+    {
+      "name" : "Edit",
+      "shortcuts" : [
+        {
+          "details" : "Can’t Undo",
+          "keyCombo" : "Cmd Z"
+        },
+        {
+          "details" : "Can’t Redo",
+          "keyCombo" : "Shift Cmd Z"
+        },
+        {
+          "details" : "Clear Undo History",
+          "keyCombo" : "Ctrl Cmd Z"
+        },
+        {
+          "details" : "Repeat Last Command",
+          "keyCombo" : "Cmd Y"
+        },
+        {
+          "details" : "Cut",
+          "keyCombo" : "Cmd X"
+        },
+        {
+          "details" : "Cut & Append",
+          "keyCombo" : "Shift Cmd X"
+        },
+        {
+          "details" : "Cut Line",
+          "keyCombo" : "Ctrl Cmd X"
+        },
+        {
+          "details" : "Cut & Append Line",
+          "keyCombo" : "Ctrl Shift Cmd X"
+        },
+        {
+          "details" : "Copy",
+          "keyCombo" : "Cmd C"
+        },
+        {
+          "details" : "Copy & Append",
+          "keyCombo" : "Shift Cmd C"
+        },
+        {
+          "details" : "Copy Line",
+          "keyCombo" : "Ctrl Cmd C"
+        },
+        {
+          "details" : "Copy & Append Line",
+          "keyCombo" : "Ctrl Shift Cmd C"
+        },
+        {
+          "details" : "Paste",
+          "keyCombo" : "Cmd V"
+        },
+        {
+          "details" : "and Select",
+          "keyCombo" : "Opt Cmd V"
+        },
+        {
+          "details" : "Previous Clipboard",
+          "keyCombo" : "Shift Cmd V"
+        },
+        {
+          "details" : "and Match Indentation",
+          "keyCombo" : "Opt Shift Cmd V"
+        },
+        {
+          "details" : "Column",
+          "keyCombo" : "Ctrl Cmd V"
+        },
+        {
+          "details" : "Select All",
+          "keyCombo" : "Cmd A"
+        },
+        {
+          "details" : "Line",
+          "keyCombo" : "Cmd L"
+        },
+        {
+          "details" : "Paragraph",
+          "keyCombo" : "Opt Cmd L"
+        },
+        {
+          "details" : "Up",
+          "keyCombo" : "Ctrl Shift uparrow"
+        },
+        {
+          "details" : "Down",
+          "keyCombo" : "Ctrl Shift downarrow"
+        },
+        {
+          "details" : "Clear List Selection",
+          "keyCombo" : "Shift Cmd A"
+        },
+        {
+          "details" : "Complete",
+          "keyCombo" : ""
+        },
+        {
+          "details" : "Show Symbol Help",
+          "keyCombo" : "Ctrl Cmd "
+        },
+        {
+          "details" : "Show Parameter Help",
+          "keyCombo" : "Ctrl "
+        },
+        {
+          "details" : "Expand Emmet Abbreviation",
+          "keyCombo" : "Shift "
+        },
+        {
+          "details" : "New Line Before Paragraph",
+          "keyCombo" : "Shift Cmd return"
+        },
+        {
+          "details" : "New Line After Paragraph",
+          "keyCombo" : "Cmd return"
+        },
+        {
+          "details" : "Move Line Up",
+          "keyCombo" : "Ctrl uparrow"
+        },
+        {
+          "details" : "Move Line Down",
+          "keyCombo" : "Ctrl downarrow"
+        },
+        {
+          "details" : "Delete Line",
+          "keyCombo" : "Ctrl Shift delete"
+        },
+        {
+          "details" : "Duplicate",
+          "keyCombo" : "Shift Cmd D"
+        },
+        {
+          "details" : "Previous Clipboard",
+          "keyCombo" : "Ctrl ["
+        },
+        {
+          "details" : "Next Clipboard",
+          "keyCombo" : "Ctrl ]"
+        },
+        {
+          "details" : "Text Options…",
+          "keyCombo" : "Opt Cmd ,"
+        },
+        {
+          "details" : "Find Next Misspelled Word",
+          "keyCombo" : "Cmd ;"
+        },
+        {
+          "details" : "Find All Misspelled Words",
+          "keyCombo" : "Opt Cmd ;"
+        },
+        {
+          "details" : "Show Spelling Panel",
+          "keyCombo" : "Shift Cmd ;"
+        },
+        {
+          "details" : "Send Command",
+          "keyCombo" : "Ctrl return"
+        },
+        {
+          "details" : "Emoji & Symbols",
+          "keyCombo" : "🌐"
+        }
+      ]
+    },
+    {
+      "name" : "Text",
+      "shortcuts" : [
+        {
+          "details" : "Shift Left",
+          "keyCombo" : "Cmd ["
+        },
+        {
+          "details" : "Shift Left One Space",
+          "keyCombo" : "Shift Cmd ["
+        },
+        {
+          "details" : "Shift Right",
+          "keyCombo" : "Cmd ]"
+        },
+        {
+          "details" : "Shift Right One Space",
+          "keyCombo" : "Shift Cmd ]"
+        },
+        {
+          "details" : "Un\/Comment Lines",
+          "keyCombo" : "Cmd \/"
+        },
+        {
+          "details" : "Un\/Comment Block",
+          "keyCombo" : "Opt Cmd \/"
+        },
+        {
+          "details" : "Hard Wrap…",
+          "keyCombo" : "Cmd \\"
+        },
+        {
+          "details" : "Hard Wrap",
+          "keyCombo" : "Opt Cmd \\"
+        }
+      ]
+    },
+    {
+      "name" : "View",
+      "shortcuts" : [
+        {
+          "details" : "Show Fonts",
+          "keyCombo" : "Cmd T"
+        },
+        {
+          "details" : "Hide Sidebar",
+          "keyCombo" : "Cmd 0"
+        },
+        {
+          "details" : "Balance",
+          "keyCombo" : "Cmd B"
+        },
+        {
+          "details" : "Balance & Fold",
+          "keyCombo" : "Shift Cmd B"
+        },
+        {
+          "details" : "Previous Document",
+          "keyCombo" : "Opt Cmd ["
+        },
+        {
+          "details" : "Next Document",
+          "keyCombo" : "Opt Cmd ]"
+        },
+        {
+          "details" : "Move to New Window",
+          "keyCombo" : "Opt Cmd O"
+        },
+        {
+          "details" : "Move to Window…",
+          "keyCombo" : "Ctrl Opt Cmd O"
+        },
+        {
+          "details" : "Get Info",
+          "keyCombo" : "Cmd I"
+        },
+        {
+          "details" : "Enter Full Screen",
+          "keyCombo" : "F"
+        }
+      ]
+    },
+    {
+      "name" : "Search",
+      "shortcuts" : [
+        {
+          "details" : "Find…",
+          "keyCombo" : "Cmd F"
+        },
+        {
+          "details" : "Multi-File Search…",
+          "keyCombo" : "Shift Cmd F"
+        },
+        {
+          "details" : "Live Search",
+          "keyCombo" : "Opt Cmd F"
+        },
+        {
+          "details" : "Find Next",
+          "keyCombo" : "Cmd G"
+        },
+        {
+          "details" : "Find Previous",
+          "keyCombo" : "Shift Cmd G"
+        },
+        {
+          "details" : "Find First",
+          "keyCombo" : "Ctrl Cmd G"
+        },
+        {
+          "details" : "Find All",
+          "keyCombo" : "Opt Cmd G"
+        },
+        {
+          "details" : "Find & Select All",
+          "keyCombo" : "Ctrl Opt Cmd G"
+        },
+        {
+          "details" : "Use Selection for Find",
+          "keyCombo" : "Cmd E"
+        },
+        {
+          "details" : "Use Selection for Find (grep)",
+          "keyCombo" : "Shift Cmd E"
+        },
+        {
+          "details" : "Use Selection for Replace",
+          "keyCombo" : "Opt Cmd E"
+        },
+        {
+          "details" : "Use Selection for Replace (grep)",
+          "keyCombo" : "Opt Shift Cmd E"
+        },
+        {
+          "details" : "Replace",
+          "keyCombo" : "Cmd ="
+        },
+        {
+          "details" : "Replace All",
+          "keyCombo" : "Opt Cmd ="
+        },
+        {
+          "details" : "Replace All in Selection",
+          "keyCombo" : "Ctrl Cmd ="
+        },
+        {
+          "details" : "Replace to End",
+          "keyCombo" : "Shift Cmd ="
+        },
+        {
+          "details" : "Next Occurrence of Selected Text",
+          "keyCombo" : "Ctrl G"
+        },
+        {
+          "details" : "Previous Occurrence of Selected Text",
+          "keyCombo" : "Ctrl Opt G"
+        },
+        {
+          "details" : "Apply to Left",
+          "keyCombo" : "Cmd leftarrow"
+        },
+        {
+          "details" : "Apply to Right",
+          "keyCombo" : "Cmd rightarrow"
+        }
+      ]
+    },
+    {
+      "name" : "Go",
+      "shortcuts" : [
+        {
+          "details" : "Line Number…",
+          "keyCombo" : "Cmd J"
+        },
+        {
+          "details" : "Line Number",
+          "keyCombo" : "Opt Cmd J"
+        },
+        {
+          "details" : "Center Line",
+          "keyCombo" : "Shift Cmd J"
+        },
+        {
+          "details" : "Named Symbol…",
+          "keyCombo" : "Ctrl Cmd J"
+        },
+        {
+          "details" : "Previous",
+          "keyCombo" : "Shift Cmd ,"
+        },
+        {
+          "details" : "Next",
+          "keyCombo" : "Shift Cmd ."
+        },
+        {
+          "details" : "Previous Error",
+          "keyCombo" : "Ctrl Cmd uparrow"
+        },
+        {
+          "details" : "Next Error",
+          "keyCombo" : "Ctrl Cmd downarrow"
+        },
+        {
+          "details" : "Previous Conflict",
+          "keyCombo" : "Ctrl Cmd ["
+        },
+        {
+          "details" : "Next Conflict",
+          "keyCombo" : "Ctrl Cmd ]"
+        },
+        {
+          "details" : "Previous Placeholder",
+          "keyCombo" : "Ctrl Shift `"
+        },
+        {
+          "details" : "Next Placeholder",
+          "keyCombo" : "Ctrl `"
+        },
+        {
+          "details" : "Commands…",
+          "keyCombo" : "Shift Cmd U"
+        }
+      ]
+    },
+    {
+      "name" : "Markup",
+      "shortcuts" : [
+        {
+          "details" : "Edit Markup…",
+          "keyCombo" : "Ctrl Cmd M"
+        },
+        {
+          "details" : "Balance Tags",
+          "keyCombo" : "Opt Cmd B"
+        },
+        {
+          "details" : "Table…",
+          "keyCombo" : "Ctrl Cmd T"
+        },
+        {
+          "details" : "Anchor…",
+          "keyCombo" : "Ctrl Cmd A"
+        },
+        {
+          "details" : "Image…",
+          "keyCombo" : "Ctrl Cmd I"
+        },
+        {
+          "details" : "Break…",
+          "keyCombo" : "Ctrl Cmd B"
+        },
+        {
+          "details" : "Document Syntax",
+          "keyCombo" : "Ctrl Cmd Y"
+        },
+        {
+          "details" : "Document Links",
+          "keyCombo" : "Ctrl Cmd K"
+        },
+        {
+          "details" : "Document",
+          "keyCombo" : "Ctrl Cmd U"
+        },
+        {
+          "details" : "Format…",
+          "keyCombo" : "Opt Shift Cmd F"
+        },
+        {
+          "details" : "Preview in BBEdit",
+          "keyCombo" : "Ctrl Cmd P"
+        }
+      ]
+    },
+    {
+      "name" : "Window",
+      "shortcuts" : [
+        {
+          "details" : "Minimize Window",
+          "keyCombo" : "Cmd M"
+        },
+        {
+          "details" : "Minimize All",
+          "keyCombo" : "Opt Cmd M"
+        },
+        {
+          "details" : "Fill",
+          "keyCombo" : "Ctrl F"
+        },
+        {
+          "details" : "Center",
+          "keyCombo" : "Ctrl C"
+        },
+        {
+          "details" : "Left",
+          "keyCombo" : "Ctrl leftarrow"
+        },
+        {
+          "details" : "Right",
+          "keyCombo" : "Ctrl rightarrow"
+        },
+        {
+          "details" : "Top",
+          "keyCombo" : "Ctrl uparrow"
+        },
+        {
+          "details" : "Bottom",
+          "keyCombo" : "Ctrl downarrow"
+        },
+        {
+          "details" : "Left & Right",
+          "keyCombo" : "Ctrl Shift leftarrow"
+        },
+        {
+          "details" : "Left & Quarters",
+          "keyCombo" : "Ctrl Opt Shift leftarrow"
+        },
+        {
+          "details" : "Right & Left",
+          "keyCombo" : "Ctrl Shift rightarrow"
+        },
+        {
+          "details" : "Right & Quarters",
+          "keyCombo" : "Ctrl Opt Shift rightarrow"
+        },
+        {
+          "details" : "Top & Bottom",
+          "keyCombo" : "Ctrl Shift uparrow"
+        },
+        {
+          "details" : "Top & Quarters",
+          "keyCombo" : "Ctrl Opt Shift uparrow"
+        },
+        {
+          "details" : "Bottom & Top",
+          "keyCombo" : "Ctrl Shift downarrow"
+        },
+        {
+          "details" : "Bottom & Quarters",
+          "keyCombo" : "Ctrl Opt Shift downarrow"
+        },
+        {
+          "details" : "Return to Previous Size",
+          "keyCombo" : "Ctrl R"
+        },
+        {
+          "details" : "Cycle Through Windows",
+          "keyCombo" : "Cmd `"
+        },
+        {
+          "details" : "Cycle Through Windows Backwards",
+          "keyCombo" : "Shift Cmd `"
+        }
+      ]
+    },
+    {
+      "name" : "#!",
+      "shortcuts" : [
+        {
+          "details" : "Check Syntax",
+          "keyCombo" : "Cmd K"
+        },
+        {
+          "details" : "Run",
+          "keyCombo" : "Cmd R"
+        }
+      ]
+    }
+  ]
+}

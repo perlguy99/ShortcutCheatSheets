@@ -1,0 +1,239 @@
+{
+  "categories" : [
+    {
+      "name" : "Obsidian",
+      "shortcuts" : [
+        {
+          "details" : "Settings…",
+          "keyCombo" : "Cmd ,"
+        },
+        {
+          "details" : "Hide Obsidian",
+          "keyCombo" : "Cmd H"
+        },
+        {
+          "details" : "Hide Others",
+          "keyCombo" : "Opt Cmd H"
+        },
+        {
+          "details" : "Quit Obsidian",
+          "keyCombo" : "Cmd Q"
+        }
+      ]
+    },
+    {
+      "name" : "File",
+      "shortcuts" : [
+        {
+          "details" : "New Note",
+          "keyCombo" : "Cmd N"
+        },
+        {
+          "details" : "New Note to the Right",
+          "keyCombo" : "Shift Cmd N"
+        },
+        {
+          "details" : "New Tab",
+          "keyCombo" : "Cmd T"
+        },
+        {
+          "details" : "Open Quickly…",
+          "keyCombo" : "Cmd O"
+        },
+        {
+          "details" : "Close Tab",
+          "keyCombo" : "Cmd W"
+        },
+        {
+          "details" : "Close Window",
+          "keyCombo" : "Shift Cmd W"
+        }
+      ]
+    },
+    {
+      "name" : "Edit",
+      "shortcuts" : [
+        {
+          "details" : "Undo",
+          "keyCombo" : "Cmd Z"
+        },
+        {
+          "details" : "Redo",
+          "keyCombo" : "Shift Cmd Z"
+        },
+        {
+          "details" : "Cut",
+          "keyCombo" : "Cmd X"
+        },
+        {
+          "details" : "Copy",
+          "keyCombo" : "Cmd C"
+        },
+        {
+          "details" : "Paste",
+          "keyCombo" : "Cmd V"
+        },
+        {
+          "details" : "Paste and Match Style",
+          "keyCombo" : "Shift Cmd V"
+        },
+        {
+          "details" : "Select All",
+          "keyCombo" : "Cmd A"
+        },
+        {
+          "details" : "Find",
+          "keyCombo" : "Cmd F"
+        },
+        {
+          "details" : "Replace",
+          "keyCombo" : "Opt Cmd F"
+        },
+        {
+          "details" : "Emoji & Symbols",
+          "keyCombo" : "🌐"
+        }
+      ]
+    },
+    {
+      "name" : "Insert",
+      "shortcuts" : [
+        {
+          "details" : "Markdown Link",
+          "keyCombo" : "Cmd K"
+        },
+        {
+          "details" : "Task List",
+          "keyCombo" : "Cmd L"
+        }
+      ]
+    },
+    {
+      "name" : "Format",
+      "shortcuts" : [
+        {
+          "details" : "Bold",
+          "keyCombo" : "Cmd B"
+        },
+        {
+          "details" : "Italics",
+          "keyCombo" : "Cmd I"
+        },
+        {
+          "details" : "Comment",
+          "keyCombo" : "Cmd \/"
+        }
+      ]
+    },
+    {
+      "name" : "View",
+      "shortcuts" : [
+        {
+          "details" : "Reading View",
+          "keyCombo" : "Cmd E"
+        },
+        {
+          "details" : "Navigate Back",
+          "keyCombo" : "Opt Cmd leftarrow"
+        },
+        {
+          "details" : "Navigate Forward",
+          "keyCombo" : "Opt Cmd rightarrow"
+        },
+        {
+          "details" : "Actual Size",
+          "keyCombo" : "Cmd 0"
+        },
+        {
+          "details" : "Zoom In",
+          "keyCombo" : "Cmd ="
+        },
+        {
+          "details" : "Zoom Out",
+          "keyCombo" : "Cmd -"
+        },
+        {
+          "details" : "Toggle Developer Tools",
+          "keyCombo" : "Opt Cmd I"
+        },
+        {
+          "details" : "Toggle Full Screen",
+          "keyCombo" : "F"
+        }
+      ]
+    },
+    {
+      "name" : "Window",
+      "shortcuts" : [
+        {
+          "details" : "Minimize",
+          "keyCombo" : "Cmd M"
+        },
+        {
+          "details" : "Minimize All",
+          "keyCombo" : "Opt Cmd M"
+        },
+        {
+          "details" : "Fill",
+          "keyCombo" : "Ctrl F"
+        },
+        {
+          "details" : "Center",
+          "keyCombo" : "Ctrl C"
+        },
+        {
+          "details" : "Left",
+          "keyCombo" : "Ctrl leftarrow"
+        },
+        {
+          "details" : "Right",
+          "keyCombo" : "Ctrl rightarrow"
+        },
+        {
+          "details" : "Top",
+          "keyCombo" : "Ctrl uparrow"
+        },
+        {
+          "details" : "Bottom",
+          "keyCombo" : "Ctrl downarrow"
+        },
+        {
+          "details" : "Left & Right",
+          "keyCombo" : "Ctrl Shift leftarrow"
+        },
+        {
+          "details" : "Left & Quarters",
+          "keyCombo" : "Ctrl Opt Shift leftarrow"
+        },
+        {
+          "details" : "Right & Left",
+          "keyCombo" : "Ctrl Shift rightarrow"
+        },
+        {
+          "details" : "Right & Quarters",
+          "keyCombo" : "Ctrl Opt Shift rightarrow"
+        },
+        {
+          "details" : "Top & Bottom",
+          "keyCombo" : "Ctrl Shift uparrow"
+        },
+        {
+          "details" : "Top & Quarters",
+          "keyCombo" : "Ctrl Opt Shift uparrow"
+        },
+        {
+          "details" : "Bottom & Top",
+          "keyCombo" : "Ctrl Shift downarrow"
+        },
+        {
+          "details" : "Bottom & Quarters",
+          "keyCombo" : "Ctrl Opt Shift downarrow"
+        },
+        {
+          "details" : "Return to Previous Size",
+          "keyCombo" : "Ctrl R"
+        }
+      ]
+    }
+  ]
+}
