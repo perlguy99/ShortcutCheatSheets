@@ -55,6 +55,20 @@ struct ContentView: View {
                     }
             }
             .navigationTitle(activeShortcutApp?.name ?? "Shortcut Cheat Sheets")
+            .navigationBarTitleDisplayMode(.inline)
+            .toolbar {
+                // The default large/inline title truncates long collection names with an
+                // ellipsis ("Kickstart Shortcuts" loses "Shortcuts") with no way to shrink
+                // it - a custom principal title can scale its font down to fit instead.
+                // .navigationTitle above is kept for VoiceOver and the back-button label;
+                // this just controls what's actually drawn in the bar.
+                ToolbarItem(placement: .principal) {
+                    Text(activeShortcutApp?.name ?? "Shortcut Cheat Sheets")
+                        .font(.headline)
+                        .lineLimit(1)
+                        .minimumScaleFactor(0.6)
+                }
+            }
             .navigationDestination(for: Shortcut.self) { shortcut in
                 EditShortcutView(navigationPath: $navigationPath, shortcut: shortcut)
             }
