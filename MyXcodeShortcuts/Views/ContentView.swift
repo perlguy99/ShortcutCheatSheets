@@ -52,26 +52,16 @@ struct ContentView: View {
                             printToolbarItem()
                             addItemToolbarItem()
                         }
-                        // The default large/inline title truncates long collection names
-                        // with an ellipsis ("Kickstart Shortcuts" loses "Shortcuts") with
-                        // no way to shrink it - a custom principal title can scale its font
-                        // down to fit instead. Declared in this SAME .toolbar block as the
-                        // leading/trailing items (not a separate one further up the view
-                        // tree) - toolbar items declared at two different attachment points
-                        // don't reliably merge, which silently dropped the title entirely
-                        // the first time this was split out. .navigationTitle below is kept
-                        // for VoiceOver and the back-button label; this just controls what's
-                        // actually drawn in the bar.
-                        ToolbarItem(placement: .principal) {
-                            Text(activeShortcutApp?.name ?? "Shortcut Cheat Sheets")
-                                .font(.headline)
-                                .lineLimit(1)
-                                .minimumScaleFactor(0.6)
-                        }
                     }
             }
+            // Deliberately NOT .inline: the inline title sits squeezed on the same thin
+            // strip as the Edit/Print/Add buttons, and on a long name or a larger Dynamic
+            // Type size it can lose its available width entirely and just not render (hit
+            // on a real device, not reproducible in Simulator). The default large title
+            // renders on its own full-width line below the buttons and wraps a long name
+            // to two lines natively - "Kickstart Shortcuts" becomes "Kickstart" / "Shortcuts"
+            // instead of truncating or disappearing. No custom toolbar item needed.
             .navigationTitle(activeShortcutApp?.name ?? "Shortcut Cheat Sheets")
-            .navigationBarTitleDisplayMode(.inline)
             .navigationDestination(for: Shortcut.self) { shortcut in
                 EditShortcutView(navigationPath: $navigationPath, shortcut: shortcut)
             }
