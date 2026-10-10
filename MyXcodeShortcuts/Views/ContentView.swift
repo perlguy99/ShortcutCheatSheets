@@ -38,9 +38,24 @@ struct ContentView: View {
     var body: some View {
         return NavigationStack(path: $navigationPath) {
 
-            VStack {
+            VStack(alignment: .leading, spacing: 2) {
+                // The system nav title (large OR inline) truncates long names with an
+                // ellipsis on a real device and has no public API to force wrapping -
+                // confirmed both ways now, large title isn't actually any different from
+                // inline here despite rendering on its own line. So the real collection
+                // name is drawn here instead, as a perfectly ordinary SwiftUI Text in the
+                // content area, which wraps by default with full control - no system
+                // chrome involved, no undocumented behavior to fight.
+                Text(activeShortcutApp?.name ?? "Shortcut Cheat Sheets")
+                    .font(.largeTitle.bold())
+                    .lineLimit(2)
+                    .fixedSize(horizontal: false, vertical: true)
+                    .padding(.horizontal)
+
                 Text(statusManager.currentStatus.headingValue)
                     .font(.caption)
+                    .foregroundStyle(.secondary)
+                    .padding(.horizontal)
 
                 CategoryListView(activeShortcutAppID: activeShortcutApp?.id)
                     .toolbar {
@@ -54,14 +69,11 @@ struct ContentView: View {
                         }
                     }
             }
-            // Deliberately NOT .inline: the inline title sits squeezed on the same thin
-            // strip as the Edit/Print/Add buttons, and on a long name or a larger Dynamic
-            // Type size it can lose its available width entirely and just not render (hit
-            // on a real device, not reproducible in Simulator). The default large title
-            // renders on its own full-width line below the buttons and wraps a long name
-            // to two lines natively - "Kickstart Shortcuts" becomes "Kickstart" / "Shortcuts"
-            // instead of truncating or disappearing. No custom toolbar item needed.
-            .navigationTitle(activeShortcutApp?.name ?? "Shortcut Cheat Sheets")
+            // The nav bar's own title is now just a short, static, never-truncating
+            // label - the real collection name lives in the content area above, where
+            // it can actually wrap. Kept for VoiceOver/back-button purposes.
+            .navigationTitle("Shortcuts")
+            .navigationBarTitleDisplayMode(.inline)
             .navigationDestination(for: Shortcut.self) { shortcut in
                 EditShortcutView(navigationPath: $navigationPath, shortcut: shortcut)
             }
