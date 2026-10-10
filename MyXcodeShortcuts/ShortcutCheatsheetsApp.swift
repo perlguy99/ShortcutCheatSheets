@@ -1,6 +1,6 @@
 //
 //  ShortcutCheatsheetsApp.swift
-//  MyXcodeShortcuts
+//  ShortcutCheatsheets
 //
 //  Created by Brent Michalski on 4/1/24.
 //
