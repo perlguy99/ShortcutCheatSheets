@@ -1,5 +1,5 @@
 //
-//  MyXcodeShortcutsApp.swift
+//  ShortcutCheatsheetsApp.swift
 //  MyXcodeShortcuts
 //
 //  Created by Brent Michalski on 4/1/24.
@@ -10,7 +10,7 @@ import SwiftData
 
 @main
 @MainActor
-struct MyXcodeShortcutsApp: App {
+struct ShortcutCheatsheetsApp: App {
     @State var isActive: Bool = false
     @State private var statusManager = StatusManager()
 
